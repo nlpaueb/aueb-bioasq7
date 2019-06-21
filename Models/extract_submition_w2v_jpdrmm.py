@@ -5,7 +5,7 @@
 # reload(sys)
 # sys.setdefaultencoding("utf-8")
 
-import  os, re, ntlk, sys, json, random, subprocess, pickle
+import  os, re, nltk, sys, json, random, subprocess, pickle
 import  torch
 import  torch.nn.functional         as F
 import  torch.nn                    as nn
