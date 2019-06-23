@@ -4,7 +4,6 @@ from tqdm import tqdm
 from collections import OrderedDict, defaultdict
 from pymongo import MongoClient
 
-
 def create_docset(docs_needed):
         print("Retrieving text for {0} documents".format(len(docs_needed)))
 
@@ -47,7 +46,6 @@ def create_doc_subset(docset, ret_docs_needed, rel_docs_needed):
                         print('Relevant doc {0} not found in docset.'.format(doc_id))
 
         return doc_subset
-
 
 def load_qret(retrieval_results_path):
         f = open(retrieval_results_path, 'r')
@@ -133,7 +131,6 @@ def remove_recent_years(q_ret, keep_up_to_year):
                                 continue
                         new_q_ret[q].append(t)
         return new_q_ret
-
 
 def generate_data (queries_file, retrieval_results_path, suffix, keep_up_to_year):
 
