@@ -116,7 +116,7 @@ def add_normalized_scores(q_ret):
                 for i in range(len(q_ret[q])):
                         q_ret[q][i] += (norm_scores[i],)
 
-def remove_recent_years(q_ret, keep_up_to_year):
+def remove_recent_years(docset, q_ret, keep_up_to_year):
         new_q_ret = defaultdict(list)
         for q in q_ret:
                 for t in q_ret[q]:
@@ -133,27 +133,26 @@ def remove_recent_years(q_ret, keep_up_to_year):
         return new_q_ret
 
 def generate_data (queries_file, retrieval_results_path, suffix, keep_up_to_year):
-
+        ####################################################
         q_rel, n_qrels = load_q_rels_from_json(queries_file)
         q_ret = load_qret(retrieval_results_path)
         q_text  = load_q_text_from_json(queries_file)
-
+        ####################################################
         docs_needed = set()
         for q_id in q_rel:
                 docs_needed.update(q_rel[q_id])
         for q_id in q_ret:
                 docs_needed.update([d[0] for d in q_ret[q_id]])
         docset = create_docset(docs_needed)
-
-        q_ret = remove_recent_years(q_ret, keep_up_to_year)
-
+        ####################################################
+        q_ret = remove_recent_years(docset, q_ret, keep_up_to_year)
+        ####################################################
         for k in [100]:
                 print(k)
-
                 for q in q_ret:
                         q_ret[q] = q_ret[q][:k]
                 add_normalized_scores(q_ret)
-
+                #################################
                 queries = []
                 retrieved_documents_set = set()
                 relevant_documents_set = set()
@@ -195,13 +194,13 @@ def generate_data (queries_file, retrieval_results_path, suffix, keep_up_to_year
                         query_data['num_rel_ret'] = n_ret_rel
                         queries.append(query_data)
                         data = {'queries': queries}
-
+                #################################
                 with open('bioasq_bm25_top{0}.{1}.pkl'.format(k, suffix), 'wb') as f:
                         pickle.dump(data, f, protocol=2)
-
+                #################################
                 # Create doc subset for the top-k documents (to avoid many queries to mongodb for each k value)
                 doc_subset = create_doc_subset(docset, retrieved_documents_set, relevant_documents_set)
-
+                #################################
                 with open('bioasq_bm25_docset_top{0}.{1}.pkl'.format(k, suffix), 'wb') as f:
                         pickle.dump(doc_subset, f, protocol=2)
 
