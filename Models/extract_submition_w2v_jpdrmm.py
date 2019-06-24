@@ -1096,19 +1096,20 @@ emit_only_abstract_sents    = False
 ###########################################################
 use_cuda                    = torch.cuda.is_available()
 ###########################################################
-eval_path                   = '/home/dpappas/bioasq_all/eval/run_eval.py'
-retrieval_jar_path          = '/home/dpappas/bioasq_all/dist/my_bioasq_eval_2.jar'
-odd                         = '/home/dpappas/'
+eval_path                   = './Evaluation/eval/run_eval.py'
+retrieval_jar_path          = './Evaluation/dist/my_bioasq_eval_2.jar'
+odd                         = './Outputs/'
+###########################################################
+w2v_bin_path                = './Data/PretrainedWeightsAndVectors/pubmed2018_w2v_30D.bin'
+idf_pickle_path             = './Data/PretrainedWeightsAndVectors/idf.pkl'
 ###########################################################
 b                           = sys.argv[1]
 f_in1                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
 f_in2                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
 f_in3                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
-resume_from                 = '/home/dpappas/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
 odir                        = '/home/dpappas/test_jpdrmm_high_batch{}/'.format(b)
 ###########################################################
-w2v_bin_path                = '/home/dpappas/bioasq_all/pubmed2018_w2v_30D.bin'
-idf_pickle_path             = '/home/dpappas/bioasq_all/idf.pkl'
+resume_from                 = './Data/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
 ###########################################################
 if (not os.path.exists(odir)):
     os.makedirs(odir)
