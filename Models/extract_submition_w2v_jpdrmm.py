@@ -1103,13 +1103,13 @@ odd                         = './Outputs/'
 w2v_bin_path                = './Data/PretrainedWeightsAndVectors/pubmed2018_w2v_30D.bin'
 idf_pickle_path             = './Data/PretrainedWeightsAndVectors/idf.pkl'
 ###########################################################
+resume_from                 = './Data/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
+###########################################################
 b                           = sys.argv[1]
 f_in1                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
 f_in2                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
 f_in3                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
 odir                        = '/home/dpappas/test_jpdrmm_high_batch{}/'.format(b)
-###########################################################
-resume_from                 = './Data/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
 ###########################################################
 if (not os.path.exists(odir)):
     os.makedirs(odir)
