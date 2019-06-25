@@ -12,3 +12,23 @@ Then you must download the data found in this link:
 https://archive.org/details/AUEB_BioASQ_7_data
 and extract in the "Data" directory
 
+
+**Steps:**
+
+Step 1: Extract Data.zip in "Data" directory.
+
+Step 2: Extract zip in "Index" directory.
+
+Step 3: 
+
+Step 4: 
+
+Step 5: 
+
+
+
+
+
+
+
+
