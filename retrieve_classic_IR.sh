@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-
-
 python3.6 queries2galago.py \
 ./DATA/bioasq_data/trainining7b.json \
 ./DATA/bioasq_data/bioasq7b_all_galago_queries.json
