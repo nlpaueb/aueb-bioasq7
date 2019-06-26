@@ -19,7 +19,8 @@ Step 1: Extract Data.zip in "Data" directory.
 
 Step 2: Extract zip in "Index" directory.
 
-Step 3: 
+Step 3: Install requirements.txt using Python's pip. (We used Python's version 3.6)
+        pip3.6 install requirements.txt 
 
 Step 4: 
 
