@@ -4,7 +4,7 @@
 
 python3.6 queries2galago.py \
 ./DATA/bioasq_data/trainining7b.json \
-./bioasq7b_all_galago_queries.json
+./DATA/bioasq_data/bioasq7b_all_galago_queries.json
 
 ./Index/galago-3.10-bin/bin/galago \
 batch-search \
@@ -14,10 +14,10 @@ batch-search \
 --scorer=bm25 \
 --defaultTextPart=postings.krovetz \
 --mode=threaded \
-./bioasq7b_all_galago_queries.json \
-> ./bioasq7b_bm25_retrieval.all.txt
+./DATA/bioasq_data/bioasq7b_all_galago_queries.json \
+> ../DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt
 
-python3.6 /home/dpappas/generate_bioasq_data.py trainining7b.json bioasq7b_bm25_retrieval.all.txt all 2016
+python3.6 generate_bioasq_data.py ./DATA/bioasq_data/trainining7b.json ./DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt all 2016
 
 
 
