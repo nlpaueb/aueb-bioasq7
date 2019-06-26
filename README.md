@@ -20,7 +20,7 @@ Step 1: Extract Data.zip in "Data" directory. <br>
 Step 2: Extract zip in "Index" directory. <br>
 
 Step 3: Install requirements.txt using Python's pip. (We used Python's version 3.6) <br>
-        pip3.6 install requirements.txt 
+        ```pip3.6 install requirements.txt``` 
 
 Step 4: 
 
