@@ -27,7 +27,7 @@ Step 4: Start mongoDB (preferably in a screen session and then detach)
 
 Step 5: retrieve relevant documents using Galago and mongoDB
 You can/should change the paths in the script according to your needs.  
-If you have to test you own data you should format your questions like in the ./DATA/bioasq_data/trainining7b.json file.
+If you have to test you own data you should format your questions like in the **./DATA/bioasq_data/trainining7b.json** file.
     ```sh retrieve_classic_IR.sh``` 
 
 
