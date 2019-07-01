@@ -13,7 +13,7 @@ batch-search \
 --defaultTextPart=postings.krovetz \
 --mode=threaded \
 ./DATA/bioasq_data/bioasq7b_all_galago_queries.json \
-> ../DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt
+> ./DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt
 
 python3.6 generate_bioasq_data.py ./DATA/bioasq_data/trainining7b.json ./DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt all 2017
 
