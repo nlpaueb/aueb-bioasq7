@@ -25,9 +25,9 @@ Step 3: Install requirements.txt using Python's pip. (We used Python's version 3
 Step 4: Start mongoDB (preferably in a screen session and then detach)
     ```./Index/mongo/mongodb/bin/mongod --dbpath ./Index/mongo/mongo_database```
 
-Step 5: retrieve relevant documents using Galago and mongoDB
-You can/should change the paths in the script according to your needs.  
-If you have to test you own data you should format your questions like in the **./DATA/bioasq_data/trainining7b.json** file.
+Step 5: retrieve relevant documents using Galago and mongoDB.<br>
+You can/should change the paths in the script according to your needs.<br>  
+If you have to test you own data you should format your questions like in the **./DATA/bioasq_data/trainining7b.json** file.<br>
     ```sh retrieve_classic_IR.sh``` 
 
 
