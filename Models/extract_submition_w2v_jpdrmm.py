@@ -1087,9 +1087,6 @@ def load_model_from_checkpoint(resume_from):
         model.load_state_dict(checkpoint['state_dict'])
         print("=> loaded checkpoint '{}' (epoch {})".format(resume_from, checkpoint['epoch']))
 
-# min_doc_score               = float(sys.argv[1])
-# min_sent_score              = float(sys.argv[2])
-# emit_only_abstract_sents    = bool(int(sys.argv[3]))
 min_doc_score               = -1000.
 min_sent_score              = -1000.
 emit_only_abstract_sents    = False
@@ -1098,18 +1095,17 @@ use_cuda                    = torch.cuda.is_available()
 ###########################################################
 eval_path                   = './Evaluation/eval/run_eval.py'
 retrieval_jar_path          = './Evaluation/dist/my_bioasq_eval_2.jar'
-odd                         = './Outputs/'
 ###########################################################
 w2v_bin_path                = './Data/PretrainedWeightsAndVectors/pubmed2018_w2v_30D.bin'
 idf_pickle_path             = './Data/PretrainedWeightsAndVectors/idf.pkl'
 ###########################################################
 resume_from                 = './Data/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
 ###########################################################
-b                           = sys.argv[1]
-f_in1                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
-f_in2                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
-f_in3                       = '/home/dpappas/bioasq_all/bioasq7/data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
-odir                        = '/home/dpappas/test_jpdrmm_high_batch{}/'.format(b)
+b                           = 5 # sys.argv[1]
+f_in1                       = './Data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
+f_in2                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
+f_in3                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
+odir                        = './Outputs/test_jpdrmm_high_batch{}/'.format(b)
 ###########################################################
 if (not os.path.exists(odir)):
     os.makedirs(odir)

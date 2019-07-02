@@ -30,8 +30,60 @@ You can/should change the paths in the script according to your needs.<br>
 If you have to test you own data you should format your questions like in the **./DATA/bioasq_data/trainining7b.json** file.<br>
     ```sh retrieve_classic_IR.sh``` 
 
-Step 6: 
+Step 6: Load model and extract emitions <br>
+The pretrianed weights for the models can be found in folder "PretrainedWeightsAndVectors".<br>
+In the subfolder "bioasq7_bert_jpdrmm_2L_0p01_run_0" one can found the pretrained weights of JPDRMM model using Bert embeddings.<br>
+In the subfolder "???" one can found the pretrained weights of JPDRMM model using W2V embeddings.<br> 
+You can run the models using the following commands:<br>
 
+```
+python extract_submition_w2v_jpdrmm.py
+```
+or 
+```
+python extract_submition_bert_jpdrmm.py
+```
+for W2V-JPDRMM and BERT-JPDRMM respectively. 
+
+You should change the following paths according to your data files' paths.<br>
+For W2V-JPDRMM: 
+```
+###########################################################
+eval_path                   = './Evaluation/eval/run_eval.py'
+retrieval_jar_path          = './Evaluation/dist/my_bioasq_eval_2.jar'
+###########################################################
+w2v_bin_path                = './Data/PretrainedWeightsAndVectors/pubmed2018_w2v_30D.bin'
+idf_pickle_path             = './Data/PretrainedWeightsAndVectors/idf.pkl'
+###########################################################
+resume_from                 = './Data/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
+###########################################################
+b                           = 5 # sys.argv[1]
+f_in1                       = './Data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
+f_in2                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
+f_in3                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
+odir                        = './Outputs/test_jpdrmm_high_batch{}/'.format(b)
+###########################################################
+```
+
+For BERT-JPDRMM: 
+```
+###########################################################
+f_in1               = './Data/test_batch_5/BioASQ-task7bPhaseA-testset5'
+f_in2               = './Data/test_batch_5/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'
+f_in3               = './Data/test_batch_5/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'
+odir                = './Outputs/test_bert_jpdrmm_high_batch5/'
+###########################################################
+eval_path           = './Evaluation/eval/run_eval.py'
+retrieval_jar_path  = './Evaluation/dist/my_bioasq_eval_2.jar'
+###########################################################
+w2v_bin_path        = './Data/PretrainedWeightsAndVectors/pubmed2018_w2v_30D.bin'
+idf_pickle_path     = './Data/PretrainedWeightsAndVectors/idf.pkl'
+###########################################################
+resume_from         = './Data/PretrainedWeightsAndVectors/bioasq7_bert_jpdrmm_2L_0p01_run_0/best_checkpoint.pth.tar'
+resume_from_bert    = './Data/PretrainedWeightsAndVectorsbioasq7_bert_jpdrmm_2L_0p01_run_0/best_bert_checkpoint.pth.tar'
+cache_dir           = './Data/PretrainedWeightsAndVectors/bert_cache/'
+###########################################################
+```
 
 Step 7: 
 
