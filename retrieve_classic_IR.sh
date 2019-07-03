@@ -19,7 +19,8 @@ batch-search \
 python3.6 generate_bioasq_data.py \
 ./DATA/bioasq_data/trainining7b.json \
 ./DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt \
-all 2017
+all \
+2017
 
 
 
