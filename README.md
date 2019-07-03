@@ -23,7 +23,7 @@ Step 3: Install requirements.txt using Python's pip. (We used Python's version 3
         ```pip3.6 install requirements.txt``` 
 
 Step 4: Start mongoDB (preferably in a screen session and then detach)
-    ```./Index/mongo/mongodb/bin/mongod --dbpath ./Index/mongo/mongo_database```
+```./Index/mongo/mongodb/bin/mongod --dbpath ./Index/mongo/mongo_database```
 
 Step 5: retrieve relevant documents using Galago and mongoDB.<br>
 You can/should change the paths in the script according to your needs.<br>  
