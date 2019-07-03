@@ -28,7 +28,24 @@ Step 4: Start mongoDB (preferably in a screen session and then detach)
 Step 5: retrieve relevant documents using Galago and mongoDB.<br>
 You can/should change the paths in the script according to your needs.<br>  
 If you have to test you own data you should format your questions like in the **./DATA/bioasq_data/trainining7b.json** file.<br>
-    ```sh retrieve_classic_IR.sh``` 
+    ```sh retrieve_classic_IR.sh```<br>
+
+ Your file should have the following format: 
+ ```
+ {
+    "questions": [
+      {
+        "body": "Is Hirschsprung disease a mendelian or a multifactorial disorder?", 
+        "id": "55031181e9bde69634000014"
+      },
+      {
+        "body": "What is being measured with an accelerometer in back pain patients", 
+        "id": "533f9df0c45e133714000016"
+      },
+      ...
+    ]
+ }
+```
 
 Step 6: Load model and extract emitions <br>
 The pretrianed weights for the models can be found in folder "PretrainedWeightsAndVectors".<br>
