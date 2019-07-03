@@ -33,7 +33,7 @@ If you have to test you own data you should format your questions like in the **
 Step 6: Load model and extract emitions <br>
 The pretrianed weights for the models can be found in folder "PretrainedWeightsAndVectors".<br>
 In the subfolder "bioasq7_bert_jpdrmm_2L_0p01_run_0" one can found the pretrained weights of JPDRMM model using Bert embeddings.<br>
-In the subfolder "???" one can found the pretrained weights of JPDRMM model using W2V embeddings.<br> 
+In the subfolder "bioasq_jpdrmm_2L_0p01_run_0" one can found the pretrained weights of JPDRMM model using W2V embeddings.<br> 
 You can run the models using the following commands:<br>
 
 ```
