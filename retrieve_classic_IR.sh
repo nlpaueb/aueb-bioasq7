@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
-python3.6 queries2galago.py \
-./DATA/bioasq_data/trainining7b.json \
-./DATA/bioasq_data/bioasq7b_all_galago_queries.json
+#
+
+python3.6 \
+/home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/queries2galago.py \
+/home/kstam/aueb/Data/sample.json \
+/home/kstam/aueb/Data/sample_galago_queries.json
 
 ./Index/galago-3.10-bin/bin/galago \
 batch-search \
