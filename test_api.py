@@ -39,49 +39,11 @@ def anazitisi(idd, question):
         json.dump(ddd, fp)
         fp.close()
     #################
-    res = subprocess.Popen(
-        [
-            'python3.6',
-            '/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/queries2galago.py',
-            '/home/dpappas/sample.json',
-            '/home/dpappas/sample_galago_queries.json',
-            '/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/stopwords.pkl',
-        ],
-        stdout=subprocess.PIPE,
-        shell=False
-    )
+    command = ['sh', '/home/dpappas/runrun.sh',]
+    print(' '.join(command))
+    res = subprocess.Popen(command, stdout=subprocess.PIPE, shell=False)
     #################
-    res = subprocess.Popen(
-        [
-            'echo',
-            'nlp.aueb.group!',
-            '|'
-            'sudo',
-            '-S',
-            '/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/galago',
-            'batch-search',
-            '--index=/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/pubmed_only_abstract_galago_index',
-            '--verbose=False',
-            '--requested=100',
-            '--scorer=bm25',
-            '--defaultTextPart=postings.krovetz',
-            '--mode=threaded',
-            '/home/dpappas/sample_galago_queries.json',
-            '>',
-            '/home/dpappas/sample_bm25_retrieval.txt',
-        ],
-        stdout=subprocess.PIPE,
-        shell=False
-    )
-    #################
-    #################
-    #################
-    '''
-    '''
-
-
-
-
+    return {}
 
 @app.route('/jpdrmm/search', methods=['GET', 'POST'])
 def data_searching():
@@ -114,3 +76,7 @@ def data_searching():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=9250, debug=True, threaded=True)
 
+
+'''
+rm -rf /home/dpappas/sample_bm25_retrieval.txt /home/dpappas/sample.json /home/dpappas/sample_galago_queries.json
+'''
