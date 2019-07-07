@@ -150,39 +150,6 @@ def print_params(model):
     print('trainable:{} untrainable:{} total:{}'.format(trainable, untrainable, total_params))
     print(40 * '=')
 
-def dummy_test():
-    doc1_embeds         = np.random.rand(40, 200)
-    doc2_embeds         = np.random.rand(30, 200)
-    question_embeds     = np.random.rand(20, 200)
-    q_idfs              = np.random.rand(20, 1)
-    gaf                 = np.random.rand(4)
-    baf                 = np.random.rand(4)
-    for epoch in range(200):
-        optimizer.zero_grad()
-        cost_, doc1_emit_, doc2_emit_ = model(
-            doc1_embeds     = doc1_embeds,
-            doc2_embeds     = doc2_embeds,
-            question_embeds = question_embeds,
-            q_idfs          = q_idfs,
-            gaf             = gaf,
-            baf             = baf
-        )
-        cost_.backward()
-        optimizer.step()
-        the_cost = cost_.cpu().item()
-        print(the_cost, float(doc1_emit_), float(doc2_emit_))
-    print(20 * '-')
-
-def compute_the_cost(costs, back_prop=True):
-    cost_ = torch.stack(costs)
-    cost_ = cost_.sum() / (1.0 * cost_.size(0))
-    if(back_prop):
-        cost_.backward()
-        optimizer.step()
-        optimizer.zero_grad()
-    the_cost = cost_.cpu().item()
-    return the_cost
-
 def save_checkpoint(epoch, model, max_dev_map, optimizer, filename='checkpoint.pth.tar'):
     '''
     :param state:       the stete of the pytorch mode
@@ -668,6 +635,14 @@ def get_one_map(data, docs, use_sent_tokenizer):
     ##########################################
     return all_bioasq_subm_data_v3
 
+def load_model_from_checkpoint(resume_from):
+    global start_epoch, optimizer
+    if os.path.isfile(resume_from):
+        print("=> loading checkpoint '{}'".format(resume_from))
+        checkpoint = torch.load(resume_from, map_location=lambda storage, loc: storage)
+        model.load_state_dict(checkpoint['state_dict'])
+        print("=> loaded checkpoint '{}' (epoch {})".format(resume_from, checkpoint['epoch']))
+
 class Sent_Posit_Drmm_Modeler(nn.Module):
     def __init__(self,
              embedding_dim          = 30,
@@ -983,14 +958,6 @@ class Sent_Posit_Drmm_Modeler(nn.Module):
         loss1               = self.my_hinge_loss(final_good_output, final_bad_output)
         return loss1, final_good_output, final_bad_output, gs_emits, bs_emits
 
-def load_model_from_checkpoint(resume_from):
-    global start_epoch, optimizer
-    if os.path.isfile(resume_from):
-        print("=> loading checkpoint '{}'".format(resume_from))
-        checkpoint = torch.load(resume_from, map_location=lambda storage, loc: storage)
-        model.load_state_dict(checkpoint['state_dict'])
-        print("=> loaded checkpoint '{}' (epoch {})".format(resume_from, checkpoint['epoch']))
-
 def check_data(data):
     if(len(data)!=2):
         return None
@@ -1078,8 +1045,6 @@ if(use_cuda):
 load_model_from_checkpoint(resume_from)
 params      = model.parameters()
 print_params(model)
-###########################################################
-
 ###########################################################
 print('loading w2v')
 wv = KeyedVectors.load_word2vec_format(w2v_bin_path, binary=True)
