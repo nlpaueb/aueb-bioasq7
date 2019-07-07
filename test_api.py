@@ -39,7 +39,7 @@ def anazitisi(idd, question):
         json.dump(ddd, fp)
         fp.close()
     #################
-    trec_eval_res   = subprocess.Popen(
+    res = subprocess.Popen(
         [
             'python3.6',
             '/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/queries2galago.py',
@@ -51,9 +51,34 @@ def anazitisi(idd, question):
         shell=False
     )
     #################
+    res = subprocess.Popen(
+        [
+            'echo',
+            'nlp.aueb.group!',
+            '|'
+            'sudo',
+            '-S',
+            '/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/galago',
+            'batch-search',
+            '--index=/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/pubmed_only_abstract_galago_index',
+            '--verbose=False',
+            '--requested=100',
+            '--scorer=bm25',
+            '--defaultTextPart=postings.krovetz',
+            '--mode=threaded',
+            '/home/dpappas/sample_galago_queries.json',
+            '>',
+            '/home/dpappas/sample_bm25_retrieval.txt',
+        ],
+        stdout=subprocess.PIPE,
+        shell=False
+    )
     #################
     #################
-    ################# /home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/bioasq_bm25_retrieval.dev.txt
+    #################
+    '''
+    '''
+
 
 
 
