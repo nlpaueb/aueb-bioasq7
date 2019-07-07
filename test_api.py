@@ -630,7 +630,7 @@ def do_for_some_retrieved(docs, dato, retr_docs, data_for_revision, ret_data, us
         else:
             data_for_revision[dato['query_id']]['snippets'][retr['doc_id']] = all_emits
     #
-    doc_res                                 = sorted([item for item in doc_res.items() if(item[1]>min_doc_score)], key = lambda x: x[1], reverse = True)
+    doc_res                                 = sorted([item for item in doc_res.items() if(item[1]>-1000.0)], key = lambda x: x[1], reverse = True)
     the_doc_scores                          = dict([("http://www.ncbi.nlm.nih.gov/pubmed/{}".format(pm[0]), pm[1]) for pm in doc_res[:10]])
     doc_res                                 = ["http://www.ncbi.nlm.nih.gov/pubmed/{}".format(pm[0]) for pm in doc_res]
     emitions['documents']                   = doc_res[:100]
