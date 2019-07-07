@@ -7,8 +7,8 @@ import pickle
 # Modified bioclean: also split on dashes. Works better for retrieval with galago.
 bioclean_mod = lambda t: re.sub('[.,?;*!%^&_+():-\[\]{}]', '', t.replace('"', '').replace('/', '').replace('\\', '').replace("'", '').replace("-", ' ').strip().lower()).split()
 
-def prerpocess(path_in, path_out):
-    with open('stopwords.pkl', 'rb') as f:
+def prerpocess(path_in, path_out, stopwords_path):
+    with open(stopwords_path, 'rb') as f:
         stopwords = pickle.load(f)
     ############
     f_in = open(path_in, 'r', encoding='utf-8')
@@ -25,7 +25,7 @@ def prerpocess(path_in, path_out):
     with open(path_out, 'w+') as outfile:
         outfile.write(json.dumps({"queries": [ob for ob in q_array]}, indent=4))
 
-prerpocess(sys.argv[1], sys.argv[2])
+prerpocess(sys.argv[1], sys.argv[2], sys.argv[3])
 
 
 

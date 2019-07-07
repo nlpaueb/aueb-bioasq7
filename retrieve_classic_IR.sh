@@ -5,7 +5,8 @@
 python3.6 \
 /home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/queries2galago.py \
 /home/kstam/aueb/Data/sample.json \
-/home/kstam/aueb/Data/sample_galago_queries.json
+/home/kstam/aueb/Data/sample_galago_queries.json \
+/home/kstam/aueb/Data/stopwords.pkl
 
 ./Index/galago-3.10-bin/bin/galago \
 batch-search \
