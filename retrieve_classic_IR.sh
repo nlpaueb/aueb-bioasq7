@@ -8,7 +8,7 @@ python3.6 \
 /home/kstam/aueb/Data/sample_galago_queries.json \
 /home/kstam/aueb/Data/stopwords.pkl
 
-./Index/galago-3.10-bin/bin/galago \
+sudo /home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/galago \
 batch-search \
 --index=pubmed_only_abstract_galago_index \
 --verbose=False \
@@ -16,13 +16,14 @@ batch-search \
 --scorer=bm25 \
 --defaultTextPart=postings.krovetz \
 --mode=threaded \
-./DATA/bioasq_data/bioasq7b_all_galago_queries.json \
-> ./DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt
+/home/kstam/aueb/Data/sample_galago_queries.json \
+> /home/kstam/aueb/Data/sample_bm25_retrieval.txt
 
 # This will create the .pkl files
-python3.6 generate_bioasq_data.py \
-./DATA/bioasq_data/trainining7b.json \
-./DATA/bioasq_data/bioasq7b_bm25_retrieval.all.txt \
+python3.6 \
+/home/kstam/aueb/generate_bioasq_data.py \
+/home/kstam/aueb/Data/sample_galago_queries.json \
+/home/kstam/aueb/Data/sample_bm25_retrieval.txt \
 all \
 2017
 
