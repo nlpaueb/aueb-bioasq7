@@ -6,7 +6,7 @@ import sys
 
 url = "http://127.0.0.1:9250/jpdrmm/search"
 data = {
-    "question"  : 'what is adhd ?',
+    "question"  : 'Is smoking related to cataract ?',
     "id"        : '123',
 }
 

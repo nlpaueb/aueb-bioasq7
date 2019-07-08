@@ -633,7 +633,7 @@ def get_one(data, docs):
         data_for_revision, ret_data, snips_res = do_for_some_retrieved(docs, dato, dato['retrieved_documents'], data_for_revision, ret_data, True)
         all_bioasq_subm_data_v3['questions'].append(snips_res['v3'])
     ##########################################
-    return all_bioasq_subm_data_v3
+    return data_for_revision #all_bioasq_subm_data_v3
 
 def load_model_from_checkpoint(resume_from):
     global start_epoch, optimizer
