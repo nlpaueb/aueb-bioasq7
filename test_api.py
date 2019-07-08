@@ -604,22 +604,11 @@ def do_for_some_retrieved(docs, dato, retr_docs, data_for_revision, ret_data, us
     ret_data['questions'].append(emitions)
     #
     extracted_snippets                      = [tt for tt in extracted_snippets if (tt[2] in doc_res[:10])]
-    if(use_sent_tokenizer):
-        extracted_snippets_v1               = select_snippets_v1(extracted_snippets)
-        extracted_snippets_v2               = select_snippets_v2(extracted_snippets)
-        extracted_snippets_v3               = select_snippets_v3(extracted_snippets, the_doc_scores)
-    else:
-        extracted_snippets_v1, extracted_snippets_v2, extracted_snippets_v3 = [], [], []
+    extracted_snippets_v3                   = select_snippets_v3(extracted_snippets, the_doc_scores)
     #
-    snips_res_v1                = prep_extracted_snippets(extracted_snippets_v1, docs, dato['query_id'], doc_res[:10], dato['query_text'])
-    snips_res_v2                = prep_extracted_snippets(extracted_snippets_v2, docs, dato['query_id'], doc_res[:10], dato['query_text'])
-    snips_res_v3                = prep_extracted_snippets(extracted_snippets_v3, docs, dato['query_id'], doc_res[:10], dato['query_text'])
+    snips_res_v3                            = prep_extracted_snippets(extracted_snippets_v3, docs, dato['query_id'], doc_res[:10], dato['query_text'])
     #
-    snips_res = {
-        'v1' : snips_res_v1,
-        'v2' : snips_res_v2,
-        'v3' : snips_res_v3,
-    }
+    snips_res = {'v3' : snips_res_v3}
     return data_for_revision, ret_data, snips_res
 
 def get_one(data, docs):
@@ -633,7 +622,7 @@ def get_one(data, docs):
         data_for_revision, ret_data, snips_res = do_for_some_retrieved(docs, dato, dato['retrieved_documents'], data_for_revision, ret_data, True)
         all_bioasq_subm_data_v3['questions'].append(snips_res['v3'])
     ##########################################
-    return data_for_revision #all_bioasq_subm_data_v3
+    return all_bioasq_subm_data_v3 # data_for_revision #all_bioasq_subm_data_v3
 
 def load_model_from_checkpoint(resume_from):
     global start_epoch, optimizer
