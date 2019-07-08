@@ -622,7 +622,7 @@ def do_for_some_retrieved(docs, dato, retr_docs, data_for_revision, ret_data, us
     }
     return data_for_revision, ret_data, snips_res
 
-def get_one_map(data, docs, use_sent_tokenizer):
+def get_one(data, docs):
     model.eval()
     ##########################################
     ret_data                        = {'questions': []}
@@ -630,7 +630,7 @@ def get_one_map(data, docs, use_sent_tokenizer):
     data_for_revision               = {}
     ##########################################
     for dato in tqdm(data['queries']):
-        data_for_revision, ret_data, snips_res = do_for_some_retrieved(docs, dato, dato['retrieved_documents'], data_for_revision, ret_data, use_sent_tokenizer)
+        data_for_revision, ret_data, snips_res = do_for_some_retrieved(docs, dato, dato['retrieved_documents'], data_for_revision, ret_data, True)
         all_bioasq_subm_data_v3['questions'].append(snips_res['v3'])
     ##########################################
     return all_bioasq_subm_data_v3
@@ -978,15 +978,22 @@ def anazitisi(idd, question):
         ]
     }
     #################
-    with open('/home/dpappas/sample.json', 'w') as fp:
+    with open(f_in1, 'w') as fp:
         json.dump(ddd, fp)
         fp.close()
     #################
-    command = ['sh', '/home/dpappas/runrun.sh',]
+    command = ['sh', '/home/dpappas/runrun.sh']
     print(' '.join(command))
     res = subprocess.Popen(command, stdout=subprocess.PIPE, shell=False)
     #################
-    return {}
+    with open(f_in2, 'rb') as f:
+        test_data = pickle.load(f)
+    #################
+    with open(f_in3, 'rb') as f:
+        test_docs = pickle.load(f)
+    #################
+    ret = {'results': get_one(test_data, test_docs)}
+    return ret
 
 @app.route('/jpdrmm/search', methods=['GET', 'POST'])
 def data_searching():
