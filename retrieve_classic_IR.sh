@@ -19,6 +19,8 @@ batch-search \
 /home/kstam/aueb/Data/sample_galago_queries.json \
 > /home/kstam/aueb/Data/sample_bm25_retrieval.txt
 
+cd /home/kstam/aueb
+
 # This will create the .pkl files
 python3.6 \
 /home/kstam/aueb/generate_bioasq_data.py \
