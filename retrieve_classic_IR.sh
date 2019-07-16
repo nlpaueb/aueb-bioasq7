@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#
-
 python3.6 \
 /home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/queries2galago.py \
 /home/kstam/aueb/Data/sample.json \
@@ -10,7 +8,7 @@ python3.6 \
 
 cd /home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin
 
-sudo /home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/galago \
+/home/kstam/aueb/Index/home/DATA/Biomedical/document_ranking/bioasq_data/document_retrieval/galago-3.10-bin/bin/galago \
 batch-search \
 --index=pubmed_only_abstract_galago_index \
 --verbose=False \
