@@ -24,10 +24,18 @@ python3.6 \
 /home/kstam/aueb/generate_bioasq_data.py \
 /home/kstam/aueb/Data/sample.json \
 /home/kstam/aueb/Data/sample_bm25_retrieval.txt \
-all \
+sample \
 2017
 
 #/home/kstam/aueb/Data/sample_galago_queries.json \
 
+
+# This will create the .pkl files
+python3.6 \
+/home/kstam/aueb/Models/extract_submition_w2v_jpdrmm.py \
+/home/kstam/aueb/Data/sample.json \
+./bioasq_bm25_top100.sample.pkl \
+./bioasq_bm25_docset_top100.sample.pkl \
+/home/kstam/aueb/Outputs/sample_output/
 
 

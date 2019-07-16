@@ -1101,11 +1101,15 @@ idf_pickle_path             = './Data/PretrainedWeightsAndVectors/idf.pkl'
 ###########################################################
 resume_from                 = './Data/bioasq_jpdrmm_2L_0p01_run_0/best_dev_checkpoint.pth.tar'
 ###########################################################
-b                           = 5 # sys.argv[1]
-f_in1                       = './Data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
-f_in2                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
-f_in3                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
-odir                        = './Outputs/test_jpdrmm_high_batch{}/'.format(b)
+# b                           = 5 # sys.argv[1]
+# f_in1                       = './Data/test_batch_{}/BioASQ-task7bPhaseA-testset{}'.format(b, b)
+# f_in2                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_top100.test.pkl'.format(b)
+# f_in3                       = './Data/test_batch_{}/bioasq7_bm25_top100/bioasq7_bm25_docset_top100.test.pkl'.format(b)
+# odir                        = './Outputs/test_jpdrmm_high_batch{}/'.format(b)
+f_in1 = sys.argv[1]
+f_in2 = sys.argv[2]
+f_in3 = sys.argv[3]
+odir  = sys.argv[4]
 ###########################################################
 if (not os.path.exists(odir)):
     os.makedirs(odir)
