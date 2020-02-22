@@ -1,0 +1,504 @@
+{
+  "questions": [
+    {
+      "body": "Is durvalumab used for lung cancer treatment?", 
+      "type": "yesno", 
+      "id": "5c5607aa07647bbc4b00000e"
+    }, 
+    {
+      "body": "Which metabolic pathways have been associated with Systemic Lupus Erythematosus?", 
+      "type": "list", 
+      "id": "5c34a761da8336e21a000005"
+    }, 
+    {
+      "body": "What is the combined effect of Nfat and miR-25?", 
+      "type": "factoid", 
+      "id": "5c5f56501a4c55d80b00002a"
+    }, 
+    {
+      "body": "Are there microbes in human breast milk?", 
+      "type": "yesno", 
+      "id": "5be44bef133db5eb78000014"
+    }, 
+    {
+      "body": "In what states are GDF15 expression increased?", 
+      "type": "list", 
+      "id": "5ad303970340b9f05800001a"
+    }, 
+    {
+      "body": "Describe clinical presentation of Escobar syndrome.", 
+      "type": "summary", 
+      "id": "5c5866c086df2b9174000002"
+    }, 
+    {
+      "body": "Which genomic positions are preferentially selected for transposon insertion?", 
+      "type": "factoid", 
+      "id": "5c34ad63da8336e21a000007"
+    }, 
+    {
+      "body": "Which Lisp framework has been developed for image processing?", 
+      "type": "factoid", 
+      "id": "5c65b7657c78d6947100000c"
+    }, 
+    {
+      "body": "What are the 3 main bacteria found in human milk?", 
+      "type": "list", 
+      "id": "5be44d8b133db5eb78000015"
+    }, 
+    {
+      "body": "What is the function of GFRAL?", 
+      "type": "summary", 
+      "id": "5ad3072a0340b9f05800001b"
+    }, 
+    {
+      "body": "Is cariprazine effective for treatment of bipolar disorder?", 
+      "type": "yesno", 
+      "id": "5c61bacae842deac67000001"
+    }, 
+    {
+      "body": "Which gene controls the consistency of cerumen (ear wax)?", 
+      "type": "factoid", 
+      "id": "5acf74460340b9f058000013"
+    }, 
+    {
+      "body": "What is DiseaseEnhancer?", 
+      "type": "summary", 
+      "id": "5c54600207647bbc4b000004"
+    }, 
+    {
+      "body": "What is the origin of human breast milk bacteria?", 
+      "type": "factoid", 
+      "id": "5be44ed3133db5eb78000016"
+    }, 
+    {
+      "body": "Are gut proteobacteria associated with inflammatory disease?", 
+      "type": "summary", 
+      "id": "5ad3130c0340b9f05800001d"
+    }, 
+    {
+      "body": "Is Bobble head doll syndrome associated with hydrocephalus?", 
+      "type": "yesno", 
+      "id": "5c55d75807647bbc4b000008"
+    }, 
+    {
+      "body": "Which species is the carrier of the SFTS ( severe fever with thrombocytopenia syndrome) virus?", 
+      "type": "factoid", 
+      "id": "5ad83cd6133db5eb78000010"
+    }, 
+    {
+      "body": "Which algorithm has been developed for trio-based benchmarking of variant calls?", 
+      "type": "factoid", 
+      "id": "5c581e1507647bbc4b00001c"
+    }, 
+    {
+      "body": "Can breastfeeding confer protection from type I diabetes?", 
+      "type": "yesno", 
+      "id": "5be44f50133db5eb78000017"
+    }, 
+    {
+      "body": "What is the genetic cause of Roberts syndrome?", 
+      "type": "factoid", 
+      "id": "5ad35d01133db5eb78000003"
+    }, 
+    {
+      "body": "Which molecule is targeted by Caplacizumab?", 
+      "type": "factoid", 
+      "id": "5c55d9b707647bbc4b000009"
+    }, 
+    {
+      "body": "In which tissues is the lincRNA Xist expressed?", 
+      "type": "list", 
+      "id": "5be2a070133db5eb78000013"
+    }, 
+    {
+      "body": "Is the PINES framework being used for the prediction of coding variants?", 
+      "type": "yesno", 
+      "id": "5c58447f07647bbc4b000021"
+    }, 
+    {
+      "body": "Can pets affect infant microbiomed?", 
+      "type": "yesno", 
+      "id": "5be47bff133db5eb78000018"
+    }, 
+    {
+      "body": "Which is the main component of the Lewy body?", 
+      "type": "factoid", 
+      "id": "5ad4d758133db5eb78000007"
+    }, 
+    {
+      "body": "List four features of the WHIM syndrome.", 
+      "type": "list", 
+      "id": "5c55de1607647bbc4b00000a"
+    }, 
+    {
+      "body": "What forms part of the senescence associated secretory phenotype, or SASP?", 
+      "type": "list", 
+      "id": "5c0e82b2133db5eb7800002d"
+    }, 
+    {
+      "body": "Which algorithm has been developed for the automatic extraction of co-expressed gene clusters from gene expression data?", 
+      "type": "factoid", 
+      "id": "5c58474786df2b9174000001"
+    }, 
+    {
+      "body": "Which bacteria are enriched in the gut microbiome of infants following exposure to fury pets?", 
+      "type": "list", 
+      "id": "5be47df8133db5eb78000019"
+    }, 
+    {
+      "body": "List the main PPI databases.", 
+      "type": "list", 
+      "id": "5ad4eddf133db5eb78000009"
+    }, 
+    {
+      "body": "Is Tisagenlecleucel effective for B-Cell Lymphoma?", 
+      "type": "yesno", 
+      "id": "5c56033607647bbc4b00000c"
+    }, 
+    {
+      "body": "How many pseudogenes are contained in the C. elegans genome?", 
+      "type": "factoid", 
+      "id": "5c2cf051133db5eb78000030"
+    }, 
+    {
+      "body": "What is TissueEnrich?", 
+      "type": "summary", 
+      "id": "5c58d9db86df2b9174000013"
+    }, 
+    {
+      "body": "Which member of the human mycobiota is associated to atherosclerosis?", 
+      "type": "factoid", 
+      "id": "5be47fcb133db5eb7800001a"
+    }, 
+    {
+      "body": "List intramembrane rhomboid peptidases", 
+      "type": "list", 
+      "id": "5c5f03371a4c55d80b000009"
+    }, 
+    {
+      "body": "What brain procedure can be done using the NeuroBlate system?", 
+      "type": "factoid", 
+      "id": "5c588d0986df2b9174000003"
+    }, 
+    {
+      "body": "How many genes in S. cerevisiae are the result of an ancient whole genome duplication?", 
+      "type": "factoid", 
+      "id": "5c2f669e133db5eb78000031"
+    }, 
+    {
+      "body": "What is vcfanno?", 
+      "type": "summary", 
+      "id": "5c597a5086df2b9174000016"
+    }, 
+    {
+      "body": "Is there any association between the human gut microbiome and depression?", 
+      "type": "yesno", 
+      "id": "5be48282133db5eb7800001b"
+    }, 
+    {
+      "body": "What is a Aquaporin channel?", 
+      "type": "factoid", 
+      "id": "5c5f08ad1a4c55d80b00000b"
+    }, 
+    {
+      "body": "Which intoxication is associated with Burton's line?", 
+      "type": "factoid", 
+      "id": "5c58962286df2b9174000007"
+    }, 
+    {
+      "body": "Are whole-genome duplications more divergent than small-scale duplications in yeast?", 
+      "type": "yesno", 
+      "id": "5c2f8127133db5eb78000032"
+    }, 
+    {
+      "body": "Which tool has been developed for coverage calculation for genomes?", 
+      "type": "factoid", 
+      "id": "5c59872b86df2b9174000017"
+    }, 
+    {
+      "body": "Which type of sarcoma has been associated with members of the oral microbiome?", 
+      "type": "factoid", 
+      "id": "5be48987133db5eb7800001c"
+    }, 
+    {
+      "body": "Where is the protein Bouncer located?", 
+      "type": "factoid", 
+      "id": "5c5f094c1a4c55d80b00000c"
+    }, 
+    {
+      "body": "What is hemolacria?", 
+      "type": "summary", 
+      "id": "5c5897c786df2b9174000008"
+    }, 
+    {
+      "body": "Which complex is bound by estrogen-related receptor \u03b2 (Esrrb)?", 
+      "type": "factoid", 
+      "id": "5c307474133db5eb78000033"
+    }, 
+    {
+      "body": "Which approach was used to diagnose a patient with Cutis Verticis Gyrata-Intellectual Disability (CVG-ID) syndrome?", 
+      "type": "factoid", 
+      "id": "5c632542e842deac6700000d"
+    }, 
+    {
+      "body": "What does the pembrolizumab companion diagnostic test assess?", 
+      "type": "factoid", 
+      "id": "5be48c39133db5eb7800001d"
+    }, 
+    {
+      "body": "Is  LRP1 interacting with Urokinase receptor?", 
+      "type": "yesno", 
+      "id": "5c5f0c5a1a4c55d80b00000f"
+    }, 
+    {
+      "body": "Is Baloxavir effective for influenza?", 
+      "type": "yesno", 
+      "id": "5c58a74e86df2b917400000d"
+    }, 
+    {
+      "body": "Do yeast LTR give rise to circular DNA?", 
+      "type": "yesno", 
+      "id": "5c34794fda8336e21a000001"
+    }, 
+    {
+      "body": "Is cohesin linked to myeloid differentiation?", 
+      "type": "yesno", 
+      "id": "5c644c3de842deac67000018"
+    }, 
+    {
+      "body": "Is pembrolizumab effective against Ewing's sarcoma?", 
+      "type": "yesno", 
+      "id": "5be49287133db5eb7800001e"
+    }, 
+    {
+      "body": "What is cluster of differentiation?", 
+      "type": "factoid", 
+      "id": "5c5f0d071a4c55d80b000010"
+    }, 
+    {
+      "body": "Cemiplimab is used for treatment of which cancer?", 
+      "type": "factoid", 
+      "id": "5c58b99586df2b9174000012"
+    }, 
+    {
+      "body": "What are the \"Ohnologs\"?", 
+      "type": "summary", 
+      "id": "5c3479dcda8336e21a000002"
+    }, 
+    {
+      "body": "What is the 3D genome browser?", 
+      "type": "summary", 
+      "id": "5c5207377e3cb0e231000002"
+    }, 
+    {
+      "body": "Which cancer has the kynureninase pathway been associated to?", 
+      "type": "factoid", 
+      "id": "5be494a0133db5eb7800001f"
+    }, 
+    {
+      "body": "Describe information obtained by immunophenotyping.", 
+      "type": "summary", 
+      "id": "5c5f0d861a4c55d80b000011"
+    }, 
+    {
+      "body": "List two medication included in the Juluca pill.", 
+      "type": "list", 
+      "id": "5c61cdd7e842deac67000004"
+    }, 
+    {
+      "body": "Which organs are mostly affected in Systemic Lupus Erythematosus (SLE)?", 
+      "type": "list", 
+      "id": "5c34a029da8336e21a000003"
+    }, 
+    {
+      "body": "Describe genomiser", 
+      "type": "summary", 
+      "id": "5c522b487e3cb0e231000008"
+    }, 
+    {
+      "body": "Can gene therapy restore auditory function?", 
+      "type": "yesno", 
+      "id": "5be94b87133db5eb78000020"
+    }, 
+    {
+      "body": "What is a GPI anchor?", 
+      "type": "factoid", 
+      "id": "5c5f0fb41a4c55d80b000013"
+    }, 
+    {
+      "body": "Is erythropoietin effective for treatment of amyotrophic lateral sclerosis?", 
+      "type": "yesno", 
+      "id": "5c647c52e842deac6700001c"
+    }, 
+    {
+      "body": "In which way does DNA hydroxymethylation affect patients with Systemic Lupus Erythematosus?", 
+      "type": "factoid", 
+      "id": "5c34ac49da8336e21a000006"
+    }, 
+    {
+      "body": "What is the link between ultraconserved elements and three-dimensional mammalian genome organization?", 
+      "type": "summary", 
+      "id": "5c52ca7c7e3cb0e23100000d"
+    }, 
+    {
+      "body": "What is small-activating RNA?", 
+      "type": "summary", 
+      "id": "5be94c90133db5eb78000021"
+    }, 
+    {
+      "body": "What is the function of PAPOLA/PAP?", 
+      "type": "factoid", 
+      "id": "5c5f10791a4c55d80b000014"
+    }, 
+    {
+      "body": "Is celecoxib effective for treatment of amyotrophic lateral sclerosis?", 
+      "type": "yesno", 
+      "id": "5c6638717c78d69471000012"
+    }, 
+    {
+      "body": "Which is the basis of the ATAC-Seq protocol?", 
+      "type": "summary", 
+      "id": "5c34b45eda8336e21a000008"
+    }, 
+    {
+      "body": "Are ultraconserved enhancers important for normal development?", 
+      "type": "yesno", 
+      "id": "5c531e887e3cb0e231000018"
+    }, 
+    {
+      "body": "List 3 diseases for which saRNAs have been evaluated as a potential treatment.", 
+      "type": "list", 
+      "id": "5be94f3d133db5eb78000022"
+    }, 
+    {
+      "body": "Is chlorotoxin a peptide?", 
+      "type": "yesno", 
+      "id": "5c5f12d91a4c55d80b000016"
+    }, 
+    {
+      "body": "What is the mechanism of action of Brigatinib?", 
+      "type": "factoid", 
+      "id": "5c588efb86df2b9174000004"
+    }, 
+    {
+      "body": "Is obesity related to cognitive decline?", 
+      "type": "yesno", 
+      "id": "5c0e838b133db5eb7800002e"
+    }, 
+    {
+      "body": "What is the association of Disease-Associated STRs (daSTRs) with domain boundaries?", 
+      "type": "summary", 
+      "id": "5c53242b7e3cb0e231000019"
+    }, 
+    {
+      "body": "Does vesatolimod inhibit TLR7?", 
+      "type": "yesno", 
+      "id": "5c00f38e133db5eb78000023"
+    }, 
+    {
+      "body": "Is selenocysteine an aminoacid?", 
+      "type": "yesno", 
+      "id": "5c5f21a81a4c55d80b00001c"
+    }, 
+    {
+      "body": "Is Tecovirimat effective for smallpox?", 
+      "type": "yesno", 
+      "id": "5c58923c86df2b9174000005"
+    }, 
+    {
+      "body": "Which database associates human noncoding SNPs with their three-dimensional interacting genes?", 
+      "type": "factoid", 
+      "id": "5c532ad97e3cb0e23100001a"
+    }, 
+    {
+      "body": "Can simvastatin alleviate depressive symptoms?", 
+      "type": "yesno", 
+      "id": "5c010e09133db5eb78000024"
+    }, 
+    {
+      "body": "Is P. gingivalis bacteria found in brain?", 
+      "type": "yesno", 
+      "id": "5c5f2b771a4c55d80b000020"
+    }, 
+    {
+      "body": "Is cabozantinib effective for hepatocellular carcinoma?", 
+      "type": "yesno", 
+      "id": "5c589ddb86df2b917400000b"
+    }, 
+    {
+      "body": "Describe OligoSTORM", 
+      "type": "summary", 
+      "id": "5c54496907647bbc4b000002"
+    }, 
+    {
+      "body": "In which phase of clinical trials was sutezolid in 2018?", 
+      "type": "factoid", 
+      "id": "5c011057133db5eb78000025"
+    }, 
+    {
+      "body": "What is gingipain?", 
+      "type": "factoid", 
+      "id": "5c5f2c0c1a4c55d80b000021"
+    }, 
+    {
+      "body": "What is the mechanism of action of Ivosidenib?", 
+      "type": "summary", 
+      "id": "5c58a0e486df2b917400000c"
+    }, 
+    {
+      "body": "Which tool has been developed for tagging biomedical concepts via interactive learning?", 
+      "type": "factoid", 
+      "id": "5c56b96e07647bbc4b000010"
+    }, 
+    {
+      "body": "For which disease is sutezolid developed?", 
+      "type": "factoid", 
+      "id": "5c0112dd133db5eb78000026"
+    }, 
+    {
+      "body": "Which cells produce Interleukin 17A?", 
+      "type": "factoid", 
+      "id": "5c5f30c91a4c55d80b000025"
+    }, 
+    {
+      "body": "What is the mechanism of action of Emicizumab?", 
+      "type": "summary", 
+      "id": "5c58a92386df2b917400000e"
+    }, 
+    {
+      "body": "Which ultraconserved element is associated with Embryonic Stem Cells (ESC) self-renewal?", 
+      "type": "factoid", 
+      "id": "5c580aff07647bbc4b00001a"
+    }, 
+    {
+      "body": "What does gepotidacin do to bacteria?", 
+      "type": "factoid", 
+      "id": "5c011448133db5eb78000027"
+    }, 
+    {
+      "body": "What is the role of fucokinase?", 
+      "type": "factoid", 
+      "id": "5c5f3a1f1a4c55d80b000028"
+    }, 
+    {
+      "body": "Is ibudilast effective for multiple sclerosis?", 
+      "type": "yesno", 
+      "id": "5c58ac2286df2b917400000f"
+    }, 
+    {
+      "body": "What is TPMCalculator?", 
+      "type": "summary", 
+      "id": "5c5824cf07647bbc4b00001d"
+    }, 
+    {
+      "body": "Does gepotidacin activate bacterial topoisomerase?", 
+      "type": "yesno", 
+      "id": "5c0114ec133db5eb78000028"
+    }, 
+    {
+      "body": "Describe the mechanism of action of ibalizumab.", 
+      "type": "summary", 
+      "id": "5c58b26386df2b9174000011"
+    }
+  ]
+}

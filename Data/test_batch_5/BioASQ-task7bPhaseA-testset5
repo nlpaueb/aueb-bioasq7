@@ -1,0 +1,504 @@
+{
+  "questions": [
+    {
+      "body": "Which enhancers are characterized as latent?", 
+      "type": "summary", 
+      "id": "5ca60a77ecadf2e73f00004d"
+    }, 
+    {
+      "body": "What is the difference between COG133 and COG112?", 
+      "type": "summary", 
+      "id": "5c88b8a275a4a5d21900000b"
+    }, 
+    {
+      "body": "Velocardial facial syndrome, otherwise known as Di George syndrome  is caused by a deletion in chromosome 21, yes or no?", 
+      "type": "yesno", 
+      "id": "5c97a08becadf2e73f000029"
+    }, 
+    {
+      "body": "Is the protein Asporin related to disease?", 
+      "type": "yesno", 
+      "id": "5c8ab614d558e5f23200000d"
+    }, 
+    {
+      "body": "Can TAD disruption lead to disease?", 
+      "type": "yesno", 
+      "id": "5ca61176ecadf2e73f00004e"
+    }, 
+    {
+      "body": "Is L-4F an apoE mimetic peptide?", 
+      "type": "yesno", 
+      "id": "5c8908a475a4a5d21900000c"
+    }, 
+    {
+      "body": "Anaplasma phagocytophilum is an obligate gram-negative, intracellular bacterium, yes  or no", 
+      "type": "yesno", 
+      "id": "5c98ac7fecadf2e73f00002b"
+    }, 
+    {
+      "body": "Which cells secrete lactotransferrin?", 
+      "type": "list", 
+      "id": "5c8c095e0101eac870000002"
+    }, 
+    {
+      "body": "Which plant does oleuropein originate from?", 
+      "type": "factoid", 
+      "id": "5c890ad575a4a5d21900000d"
+    }, 
+    {
+      "body": "Reslizumab is a humanized monoclonal antibody to treat what specific type of asthma?", 
+      "type": "factoid", 
+      "id": "5ca0bf00ecadf2e73f000045"
+    }, 
+    {
+      "body": "What is the function of the protein Magt1?", 
+      "type": "factoid", 
+      "id": "5c92869aecadf2e73f000015"
+    }, 
+    {
+      "body": "Can oleuropein aglycone interfere with amyloid aggregation?", 
+      "type": "yesno", 
+      "id": "5c890c3375a4a5d21900000e"
+    }, 
+    {
+      "body": "Is subdural empyema a complication of sinusitis?", 
+      "type": "yesno", 
+      "id": "5ca0c81eecadf2e73f000047"
+    }, 
+    {
+      "body": "What is the function of the transcriptional co-activator p300?", 
+      "type": "factoid", 
+      "id": "5c990241ecadf2e73f00002d"
+    }, 
+    {
+      "body": "What is another name for the plant Sideritis scardica?", 
+      "type": "factoid", 
+      "id": "5c890e6d75a4a5d21900000f"
+    }, 
+    {
+      "body": "How are gas vesicle proteins used in imaging?", 
+      "type": "summary", 
+      "id": "5ca9f5e4ecadf2e73f000052"
+    }, 
+    {
+      "body": "From where is gamabufotalin (GBT) isolated?", 
+      "type": "factoid", 
+      "id": "5c9904eaecadf2e73f00002e"
+    }, 
+    {
+      "body": "What are super-enhancers", 
+      "type": "summary", 
+      "id": "5c895e5ef9c2ba6b28000002"
+    }, 
+    {
+      "body": "Is Apelin usually decreased in diabetes?", 
+      "type": "yesno", 
+      "id": "5caa0806ecadf2e73f000057"
+    }, 
+    {
+      "body": "What is a mitosome?", 
+      "type": "factoid", 
+      "id": "5c9a6693ecadf2e73f000031"
+    }, 
+    {
+      "body": "What is the price of KYMRIAH treatment in 2019?", 
+      "type": "factoid", 
+      "id": "5c897082d558e5f232000004"
+    }, 
+    {
+      "body": "Human dihydroorotate dehydrogenase is a drug target and is involved in what biosynthetic pathway", 
+      "type": "factoid", 
+      "id": "5cb0856decadf2e73f000058"
+    }, 
+    {
+      "body": "List targets of classical analgesics.", 
+      "type": "list", 
+      "id": "5c9d18f1ecadf2e73f000033"
+    }, 
+    {
+      "body": "What is the effect of NFIA on astrocyte differentiation?", 
+      "type": "factoid", 
+      "id": "5c8fe1f10101eac87000000a"
+    }, 
+    {
+      "body": "What is the mode of action for Tocilizumab?", 
+      "type": "summary", 
+      "id": "5c960afaecadf2e73f00001e"
+    }, 
+    {
+      "body": "Where is the protein protamine 2 expressed?", 
+      "type": "factoid", 
+      "id": "5c9e6407ecadf2e73f000034"
+    }, 
+    {
+      "body": "Can miR-122 target RUNX2?", 
+      "type": "yesno", 
+      "id": "5c8fea130101eac87000000d"
+    }, 
+    {
+      "body": "Tocilizumab is an anti-TNF antibody, yes or no?", 
+      "type": "yesno", 
+      "id": "5c960d88ecadf2e73f00001f"
+    }, 
+    {
+      "body": "Is it possible to analyze exosomes with FACS?", 
+      "type": "yesno", 
+      "id": "5c9e6ab9ecadf2e73f000035"
+    }, 
+    {
+      "body": "Which company developed opdivo?", 
+      "type": "factoid", 
+      "id": "5c910ae0ecadf2e73f000007"
+    }, 
+    {
+      "body": "What are DMARDs?", 
+      "type": "factoid", 
+      "id": "5c960f21ecadf2e73f000020"
+    }, 
+    {
+      "body": "What is the aim of the MitoCeption protocol?", 
+      "type": "factoid", 
+      "id": "5c9e6e99ecadf2e73f000036"
+    }, 
+    {
+      "body": "Can prevnar 13 be used in children?", 
+      "type": "yesno", 
+      "id": "5c915e51ecadf2e73f00000c"
+    }, 
+    {
+      "body": "List 3 indications for rituximab.", 
+      "type": "list", 
+      "id": "5c961281ecadf2e73f000021"
+    }, 
+    {
+      "body": "Can mitochondria transfer from cell to cell?", 
+      "type": "yesno", 
+      "id": "5c9e738decadf2e73f000037"
+    }, 
+    {
+      "body": "Was stelara developed by Amgen?", 
+      "type": "yesno", 
+      "id": "5c9160bcecadf2e73f00000d"
+    }, 
+    {
+      "body": "List off label uses for Rituximab.", 
+      "type": "list", 
+      "id": "5c961603ecadf2e73f000022"
+    }, 
+    {
+      "body": "Can mitochondria pass through membrane nanotubes?", 
+      "type": "yesno", 
+      "id": "5c9e766becadf2e73f000038"
+    }, 
+    {
+      "body": "Do tumour-associated macrophages have a prognostic role in gliomas?", 
+      "type": "yesno", 
+      "id": "5c92159becadf2e73f000012"
+    }, 
+    {
+      "body": "What is Quorum Sensing in bacteria?", 
+      "type": "summary", 
+      "id": "5c978924ecadf2e73f000023"
+    }, 
+    {
+      "body": "What is the cause of Krabbe disease?", 
+      "type": "factoid", 
+      "id": "5c9efde8ecadf2e73f000039"
+    }, 
+    {
+      "body": "Name a CFL2 mutation which is associated with nemaline myopathy?", 
+      "type": "factoid", 
+      "id": "5c89623bf9c2ba6b28000004"
+    }, 
+    {
+      "body": "What cellular process is the gene product of NANOG involved in?", 
+      "type": "factoid", 
+      "id": "5c9789a9ecadf2e73f000024"
+    }, 
+    {
+      "body": "Is TNF-\u03b1 an activator of pancreatic stellate cells?", 
+      "type": "yesno", 
+      "id": "5c9f0dabecadf2e73f00003b"
+    }, 
+    {
+      "body": "Name the uses of Sideritis scardica in traditional medicine.", 
+      "type": "list", 
+      "id": "5c890ff475a4a5d219000010"
+    }, 
+    {
+      "body": "What are the phenotypic features of the autosomal dominant, development disease, Noonans syndrome", 
+      "type": "summary", 
+      "id": "5c978a2aecadf2e73f000025"
+    }, 
+    {
+      "body": "Are protamines ubiquitously expressed?", 
+      "type": "yesno", 
+      "id": "5c9f1b0cecadf2e73f00003c"
+    }, 
+    {
+      "body": "Are Crocus sativus compounds being considered against Alzheimer's disease?", 
+      "type": "yesno", 
+      "id": "5c891d5075a4a5d219000011"
+    }, 
+    {
+      "body": "Rickettsia felis was described as a human pathogen almost two decades ago, what is it's main arthropod vector?", 
+      "type": "factoid", 
+      "id": "5c9791d2ecadf2e73f000026"
+    }, 
+    {
+      "body": "Are there any anti-amyloid antibody approved as drug for Alzheimer's disease treatment?", 
+      "type": "yesno", 
+      "id": "5ca0848aecadf2e73f000044"
+    }, 
+    {
+      "body": "Do Crocus sativus extracts loosen the blood-brain barrier?", 
+      "type": "yesno", 
+      "id": "5c891e5575a4a5d219000012"
+    }, 
+    {
+      "body": "What is the role of Acyl-Homoserine Lactone  in bacteria?", 
+      "type": "summary", 
+      "id": "5c979383ecadf2e73f000027"
+    }, 
+    {
+      "body": "Are artificial blood cells available?", 
+      "type": "yesno", 
+      "id": "5ca0fa96ecadf2e73f000048"
+    }, 
+    {
+      "body": "Have apolipoprotein mimetics been used in clinical trials?", 
+      "type": "yesno", 
+      "id": "5c895cf0f9c2ba6b28000001"
+    }, 
+    {
+      "body": "What are 2 organisms that can cause Human toxocariasis?", 
+      "type": "list", 
+      "id": "5c979ffcecadf2e73f000028"
+    }, 
+    {
+      "body": "Is actin present in the nucleus?", 
+      "type": "yesno", 
+      "id": "5ca0fdb0ecadf2e73f000049"
+    }, 
+    {
+      "body": "What is the dbSUPER database?", 
+      "type": "summary", 
+      "id": "5c8960a6f9c2ba6b28000003"
+    }, 
+    {
+      "body": "List places in the body where somatostatin is produced.", 
+      "type": "list", 
+      "id": "5c97f579ecadf2e73f00002a"
+    }, 
+    {
+      "body": "Is the Philadelphia chromosome a fusion between parts of chromosomes 1 and 9?", 
+      "type": "yesno", 
+      "id": "5ca10fefecadf2e73f00004a"
+    }, 
+    {
+      "body": "What is YESCARTA?", 
+      "type": "summary", 
+      "id": "5c896ce0d558e5f232000002"
+    }, 
+    {
+      "body": "What are the 3 types of immunoglobulin heavy chain containing antibodies found in human breast milk?", 
+      "type": "list", 
+      "id": "5c9f79c3ecadf2e73f00003d"
+    }, 
+    {
+      "body": "What is a exposome?", 
+      "type": "factoid", 
+      "id": "5cb0d647ecadf2e73f000059"
+    }, 
+    {
+      "body": "What does the strimvelis treatment consist of?", 
+      "type": "factoid", 
+      "id": "5c897167d558e5f232000005"
+    }, 
+    {
+      "body": "Can therapeutic levels of  Vedolizumab be found in the breast milk of nursing mothers following treatment for Inflammatory bowel disease?", 
+      "type": "yesno", 
+      "id": "5c9f7bb6ecadf2e73f00003e"
+    }, 
+    {
+      "body": "What is predicted using SURFY?", 
+      "type": "factoid", 
+      "id": "5cb0e4a6ecadf2e73f00005b"
+    }, 
+    {
+      "body": "Which was the first adeno-associated virus vector gene therapy product approved in the United States?", 
+      "type": "factoid", 
+      "id": "5c897555d558e5f232000009"
+    }, 
+    {
+      "body": "What is aphasia?", 
+      "type": "summary", 
+      "id": "5c9fb2aaecadf2e73f00003f"
+    }, 
+    {
+      "body": "What is known about the gene MIR140?", 
+      "type": "summary", 
+      "id": "5c8a8f56d558e5f23200000b"
+    }, 
+    {
+      "body": "Which gene therapy treatment is FDA approved for retinal dystrophy?", 
+      "type": "factoid", 
+      "id": "5c89773ed558e5f23200000a"
+    }, 
+    {
+      "body": "Salivary Cortisol is a biomarker for what disease/syndrome/condition?", 
+      "type": "factoid", 
+      "id": "5c9fb428ecadf2e73f000041"
+    }, 
+    {
+      "body": "What is the function of the cGAS pathway?", 
+      "type": "factoid", 
+      "id": "5c8aa082d558e5f23200000c"
+    }, 
+    {
+      "body": "Does RUNX2 inhibit astrocyte differentiation?", 
+      "type": "yesno", 
+      "id": "5c8fe71b0101eac87000000b"
+    }, 
+    {
+      "body": "What are 5 key questions in human performance modeling?", 
+      "type": "list", 
+      "id": "5c9fb583ecadf2e73f000042"
+    }, 
+    {
+      "body": "What is the mode of action of the Tc toxins?", 
+      "type": "summary", 
+      "id": "5c98fcf0ecadf2e73f00002c"
+    }, 
+    {
+      "body": "What does RUNX2 stand for?", 
+      "type": "factoid", 
+      "id": "5c8fe7cb0101eac87000000c"
+    }, 
+    {
+      "body": "Where, in the body, would the Cobb-Stainsby excision arthroplasty be performed?", 
+      "type": "factoid", 
+      "id": "5c9ff25eecadf2e73f000043"
+    }, 
+    {
+      "body": "Are cardenolides inhibitors of Na+/K+ ATPase?", 
+      "type": "yesno", 
+      "id": "5c9906dcecadf2e73f00002f"
+    }, 
+    {
+      "body": "Can antisense threapy be used for Huntington's disease?", 
+      "type": "yesno", 
+      "id": "5c900779ecadf2e73f000001"
+    }, 
+    {
+      "body": "What are acoustic reported genes used to detect?", 
+      "type": "summary", 
+      "id": "5ca9f932ecadf2e73f000054"
+    }, 
+    {
+      "body": "What is a lipin 1 protein doing?", 
+      "type": "summary", 
+      "id": "5ca3bfd7ecadf2e73f00004b"
+    }, 
+    {
+      "body": "Which company produces patisiran?", 
+      "type": "factoid", 
+      "id": "5c900b9eecadf2e73f000004"
+    }, 
+    {
+      "body": "What protein is recruited by Crumbs to regulate tracheal development?", 
+      "type": "factoid", 
+      "id": "5caa0247ecadf2e73f000055"
+    }, 
+    {
+      "body": "Is collagen matrix of human articular cartilage changing with disease?", 
+      "type": "yesno", 
+      "id": "5ca5127eecadf2e73f00004c"
+    }, 
+    {
+      "body": "Is ustekinumab a polyclonal antibody?", 
+      "type": "yesno", 
+      "id": "5c9162b5ecadf2e73f00000e"
+    }, 
+    {
+      "body": "Where in the body, is ghrelin secreted?", 
+      "type": "factoid", 
+      "id": "5caa06d0ecadf2e73f000056"
+    }, 
+    {
+      "body": "List the ERM proteins.", 
+      "type": "list", 
+      "id": "5ca64b5becadf2e73f000051"
+    }, 
+    {
+      "body": "What is epitranscriptomics?", 
+      "type": "summary", 
+      "id": "5c922bc3ecadf2e73f000013"
+    }, 
+    {
+      "body": "What is resistin?", 
+      "type": "factoid", 
+      "id": "5c840782617e120c34000006"
+    }, 
+    {
+      "body": "Is Pim-1 a protein phosphatase?", 
+      "type": "yesno", 
+      "id": "5cb37f76ecadf2e73f00005c"
+    }, 
+    {
+      "body": "Name three binding partners of cofilin 2.", 
+      "type": "list", 
+      "id": "5c9007460101eac870000012"
+    }, 
+    {
+      "body": "What is the function of GvpA?", 
+      "type": "factoid", 
+      "id": "5ca9f846ecadf2e73f000053"
+    }, 
+    {
+      "body": "Is the crystal structure of Pim-1 available?", 
+      "type": "yesno", 
+      "id": "5cb380b8ecadf2e73f00005d"
+    }, 
+    {
+      "body": "What is the indication for KYMRIAH?", 
+      "type": "factoid", 
+      "id": "5c896f60d558e5f232000003"
+    }, 
+    {
+      "body": "What is a SMR based BCI?", 
+      "type": "summary", 
+      "id": "5c521c8c7e3cb0e231000007"
+    }, 
+    {
+      "body": "Is myc a tumour suppressor gene?", 
+      "type": "yesno", 
+      "id": "5cb38a56ecadf2e73f00005e"
+    }, 
+    {
+      "body": "Which syndrome is associated to SAMHD1 gene mutations?", 
+      "type": "factoid", 
+      "id": "5c93e8bdecadf2e73f00001c"
+    }, 
+    {
+      "body": "List proteins with RING domain.", 
+      "type": "list", 
+      "id": "5c990afbecadf2e73f000030"
+    }, 
+    {
+      "body": "What conditions are associated with mutations in the gene FAAH?", 
+      "type": "summary", 
+      "id": "5c9d170cecadf2e73f000032"
+    }, 
+    {
+      "body": "What is the results of mutations in the gene autoimmune regulator?", 
+      "type": "factoid", 
+      "id": "5cb39707ecadf2e73f000060"
+    }, 
+    {
+      "body": "Is CD63 an exosomal marker?", 
+      "type": "yesno", 
+      "id": "5cb3a2dd99d1e53537000001"
+    }
+  ]
+}

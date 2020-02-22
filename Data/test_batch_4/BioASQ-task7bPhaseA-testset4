@@ -1,0 +1,504 @@
+{
+  "questions": [
+    {
+      "body": "Is eculizumab used for treatment of myasthenia gravis?", 
+      "type": "yesno", 
+      "id": "5c73acf17c78d69471000089"
+    }, 
+    {
+      "body": "Which tools have been developed for computing split-networks?", 
+      "type": "list", 
+      "id": "5c6c497d7c78d69471000036"
+    }, 
+    {
+      "body": "What type of drug is apixaban?", 
+      "type": "factoid", 
+      "id": "5c920f13ecadf2e73f000010"
+    }, 
+    {
+      "body": "What the chromsomal location of the gene that is deleted in Potocki-Shaffer syndrome?", 
+      "type": "factoid", 
+      "id": "5c72b7277c78d69471000073"
+    }, 
+    {
+      "body": "Which tissue secretes vaspin?", 
+      "type": "factoid", 
+      "id": "5c7d5ae9d774d04240000010"
+    }, 
+    {
+      "body": "List features of the DOOR syndrome.", 
+      "type": "list", 
+      "id": "5c73ace67c78d69471000083"
+    }, 
+    {
+      "body": "Which web-based pedigree editors are available?", 
+      "type": "list", 
+      "id": "5c6d6b377c78d69471000039"
+    }, 
+    {
+      "body": "What is the difference between the nuclease Cas13a and C2c2", 
+      "type": "summary", 
+      "id": "5c928303ecadf2e73f000014"
+    }, 
+    {
+      "body": "Phlorotannin is extracted from what plant?", 
+      "type": "factoid", 
+      "id": "5c83fd8e617e120c34000004"
+    }, 
+    {
+      "body": "Where are pannexins localized?", 
+      "type": "factoid", 
+      "id": "5c7d5fcfd774d04240000011"
+    }, 
+    {
+      "body": "What is the mechanism of action of cariprazine?", 
+      "type": "summary", 
+      "id": "5c73ad0c7c78d69471000094"
+    }, 
+    {
+      "body": "Which curated databases exist for spider-venom toxins?", 
+      "type": "list", 
+      "id": "5c6d783e7c78d6947100003a"
+    }, 
+    {
+      "body": "List the four advances integrated into the SHERLOCKv2 platform.", 
+      "type": "list", 
+      "id": "5c928958ecadf2e73f000017"
+    }, 
+    {
+      "body": "Does Rhamnose have any effect on aging?", 
+      "type": "yesno", 
+      "id": "5c840daf617e120c34000007"
+    }, 
+    {
+      "body": "Is there any approved treatment for NAFLD?", 
+      "type": "yesno", 
+      "id": "5c7d6b3e45e140a523000001"
+    }, 
+    {
+      "body": "Can pazopanib be used for treatment von Hippel-Lindau disease?", 
+      "type": "yesno", 
+      "id": "5c72bd047c78d69471000077"
+    }, 
+    {
+      "body": "Which ploidy-agnostic method has been developed for estimating telomere length from whole genome sequencing data?", 
+      "type": "factoid", 
+      "id": "5c61f767e842deac67000007"
+    }, 
+    {
+      "body": "What happens to retrotransposons during ageing?", 
+      "type": "factoid", 
+      "id": "5c929094ecadf2e73f000019"
+    }, 
+    {
+      "body": "What is the function of Taraxasterol  in rheumatoid arthritis?", 
+      "type": "summary", 
+      "id": "5c85171875a4a5d219000004"
+    }, 
+    {
+      "body": "Is Netrin-1 a secreted protein?", 
+      "type": "yesno", 
+      "id": "5c89461675a4a5d219000013"
+    }, 
+    {
+      "body": "Which enzyme is deficient in Wolman disease?", 
+      "type": "factoid", 
+      "id": "5c72f6b17c78d6947100007f"
+    }, 
+    {
+      "body": "Is the yeast (Saccharomyces cerevisiae) genome organized into topologically associated domains (TADs)?", 
+      "type": "yesno", 
+      "id": "5c62a529e842deac6700000b"
+    }, 
+    {
+      "body": "What is MOV10?", 
+      "type": "factoid", 
+      "id": "5c93e5acecadf2e73f00001a"
+    }, 
+    {
+      "body": "As of Feb 2019, are major brain gangliosides a target for the treatment of Alzheimer's disease?", 
+      "type": "yesno", 
+      "id": "5c72a5ca7c78d6947100006d"
+    }, 
+    {
+      "body": "Which cancer is associated with increased levels of Serum alpha fetoprotein (AFP) ?", 
+      "type": "factoid", 
+      "id": "5c89623bf9c2ba6b28000005"
+    }, 
+    {
+      "body": "Is Miller-Dieker syndrome associated with abnormalities of chromosome 1?", 
+      "type": "yesno", 
+      "id": "5c72f8557c78d69471000080"
+    }, 
+    {
+      "body": "List clinical symptoms of the MECOM-associated syndrome", 
+      "type": "list", 
+      "id": "5c63286ae842deac6700000e"
+    }, 
+    {
+      "body": "Does the interaction of MOV10 and RNASEH2 promote L1 retrotransposition?", 
+      "type": "yesno", 
+      "id": "5c93e6a1ecadf2e73f00001b"
+    }, 
+    {
+      "body": "What is the role of CD28 with respect to bacterial superantigen toxins?", 
+      "type": "summary", 
+      "id": "5c72bd967c78d69471000078"
+    }, 
+    {
+      "body": "What is the exoproteome?", 
+      "type": "factoid", 
+      "id": "5c8cd26a0101eac870000003"
+    }, 
+    {
+      "body": "List features of the Triple A syndrome.", 
+      "type": "list", 
+      "id": "5c72fb4a7c78d69471000082"
+    }, 
+    {
+      "body": "What is the cause of a STAG3 truncating variant?", 
+      "type": "factoid", 
+      "id": "5c632cc1e842deac6700000f"
+    }, 
+    {
+      "body": "What are there sex differences in SAMHD1 activity?", 
+      "type": "summary", 
+      "id": "5c93ea7cecadf2e73f00001d"
+    }, 
+    {
+      "body": "What is the mechanism of the drug CRT0066101?", 
+      "type": "summary", 
+      "id": "5c83ff91617e120c34000005"
+    }, 
+    {
+      "body": "Which protein is the Mitochondrial carrier homolog 2 (MTCH2) receptor for?", 
+      "type": "factoid", 
+      "id": "5c8cdfe50101eac870000004"
+    }, 
+    {
+      "body": "Which molecule is inhibited by ivosidenib?", 
+      "type": "factoid", 
+      "id": "5c73ace87c78d69471000084"
+    }, 
+    {
+      "body": "What is PhenomeCentral?", 
+      "type": "summary", 
+      "id": "5c642fbce842deac67000014"
+    }, 
+    {
+      "body": "List 3 apoE mimetics.", 
+      "type": "list", 
+      "id": "5c88550075a4a5d219000008"
+    }, 
+    {
+      "body": "What organism causes Rhombencephalitis?", 
+      "type": "factoid", 
+      "id": "5c84346b75a4a5d219000001"
+    }, 
+    {
+      "body": "Has the protein SIRT2 been associated to cervical cancer?", 
+      "type": "yesno", 
+      "id": "5c8cfca70101eac870000005"
+    }, 
+    {
+      "body": "Which receptor is targeted by Erenumab?", 
+      "type": "factoid", 
+      "id": "5c73acef7c78d69471000088"
+    }, 
+    {
+      "body": "Are recessive coding variants responsible for the majority of undiagnosed nonconsanguineous individuals?", 
+      "type": "yesno", 
+      "id": "5c6438a5e842deac67000016"
+    }, 
+    {
+      "body": "How can super-enhancers be used in disease diagnosis?", 
+      "type": "summary", 
+      "id": "5c8962e8d558e5f232000001"
+    }, 
+    {
+      "body": "What is the function of PARP1?", 
+      "type": "summary", 
+      "id": "5c8436f875a4a5d219000002"
+    }, 
+    {
+      "body": "List sirtuin inhibitors.", 
+      "type": "list", 
+      "id": "5c8d00980101eac870000006"
+    }, 
+    {
+      "body": "Is Semagacestat effective for treatment of Alzheimer's disease?", 
+      "type": "yesno", 
+      "id": "5c73acf27c78d6947100008a"
+    }, 
+    {
+      "body": "Is the NLM medical text indexer (MTI) still useful and relevant?", 
+      "type": "yesno", 
+      "id": "5c6445f0e842deac67000017"
+    }, 
+    {
+      "body": "Has strimvelis been approved by the European Medicines Agency?", 
+      "type": "yesno", 
+      "id": "5c8972d4d558e5f232000006"
+    }, 
+    {
+      "body": "What antibiotic is currently used as the standard of care for Clostridium Difficile infection as of 2018", 
+      "type": "factoid", 
+      "id": "5c85234775a4a5d219000007"
+    }, 
+    {
+      "body": "Which proteins are markers of HPV oncogenic activity?", 
+      "type": "summary", 
+      "id": "5c8d0a980101eac870000008"
+    }, 
+    {
+      "body": "Which features are evaluated with the CRAFFT screening test?", 
+      "type": "list", 
+      "id": "5c73acf57c78d6947100008c"
+    }, 
+    {
+      "body": "Describe the bartender algorithm", 
+      "type": "summary", 
+      "id": "5c65ae757c78d6947100000a"
+    }, 
+    {
+      "body": "Which was the first gene therapy to receive marketing authorization in the European Union?", 
+      "type": "factoid", 
+      "id": "5c8973f3d558e5f232000007"
+    }, 
+    {
+      "body": "Is treatment with Bacillus Calmette Guerin used for bladder cancer?", 
+      "type": "yesno", 
+      "id": "5c83f858617e120c34000003"
+    }, 
+    {
+      "body": "List lymphocytes that are analyzed by a flow cytometer.", 
+      "type": "list", 
+      "id": "5c5f0f581a4c55d80b000012"
+    }, 
+    {
+      "body": "List two drugs that are included in the Akynzeo pill?", 
+      "type": "list", 
+      "id": "5c73ad057c78d6947100008f"
+    }, 
+    {
+      "body": "Describe CapSim", 
+      "type": "summary", 
+      "id": "5c65b2e87c78d6947100000b"
+    }, 
+    {
+      "body": "Which company produces Glybera?", 
+      "type": "factoid", 
+      "id": "5c8974bcd558e5f232000008"
+    }, 
+    {
+      "body": "What is the mode of action of Tetrocarcin-A?", 
+      "type": "summary", 
+      "id": "5c84394375a4a5d219000003"
+    }, 
+    {
+      "body": "List some substances important for proper nervous system function that gut microbes produce.", 
+      "type": "list", 
+      "id": "5c5f2dc21a4c55d80b000024"
+    }, 
+    {
+      "body": "Safinamide is approved for treatment of which disease?", 
+      "type": "factoid", 
+      "id": "5c73ad077c78d69471000090"
+    }, 
+    {
+      "body": "Under which environment does SELANSI run?", 
+      "type": "factoid", 
+      "id": "5c6ab4c17c78d6947100001d"
+    }, 
+    {
+      "body": "What are CRISPR-Cas12a proteins?", 
+      "type": "summary", 
+      "id": "5c8feae70101eac87000000e"
+    }, 
+    {
+      "body": "List 3 enterotoxins produced by Clostridium difficile.", 
+      "type": "list", 
+      "id": "5c851a8175a4a5d219000005"
+    }, 
+    {
+      "body": "List adipokines.", 
+      "type": "list", 
+      "id": "5c7d520ed774d0424000000f"
+    }, 
+    {
+      "body": "What is the mechanism of action of Solriamfetol?", 
+      "type": "summary", 
+      "id": "5c73ad097c78d69471000092"
+    }, 
+    {
+      "body": "Which tool is used to visualise the junction sites of chloroplast genomes?", 
+      "type": "factoid", 
+      "id": "5c6acb107c78d6947100001f"
+    }, 
+    {
+      "body": "What is the difference between CRISPR-Cas12a and CRISPR-Cpf1?", 
+      "type": "factoid", 
+      "id": "5c8fee200101eac87000000f"
+    }, 
+    {
+      "body": "Please list 2 antitoxin antibodies approved by the FDA for reducing the recurrence of Clostridium difficile infection", 
+      "type": "list", 
+      "id": "5c851c2675a4a5d219000006"
+    }, 
+    {
+      "body": "List the functions of the protein lactotransferrin.", 
+      "type": "list", 
+      "id": "5c8bfe25d558e5f23200000f"
+    }, 
+    {
+      "body": "Does Axitinib prolong survival of Pancreatic Cancer patients?", 
+      "type": "yesno", 
+      "id": "5c73ad347c78d69471000098"
+    }, 
+    {
+      "body": "Which Python tool has been developed for network-based stratification of tumor mutations?", 
+      "type": "factoid", 
+      "id": "5c6ad2997c78d69471000020"
+    }, 
+    {
+      "body": "Through which protein interaction does MLP regulate F-actin dynamics?", 
+      "type": "factoid", 
+      "id": "5c8fef490101eac870000010"
+    }, 
+    {
+      "body": "Is there any association between suicide and autism in adolescents, yes or no?", 
+      "type": "yesno", 
+      "id": "5c5217fd7e3cb0e231000005"
+    }, 
+    {
+      "body": "Is lactotransferrin a tumour suppressor?", 
+      "type": "yesno", 
+      "id": "5c8c05c70101eac870000001"
+    }, 
+    {
+      "body": "What is CVT-301?", 
+      "type": "summary", 
+      "id": "5c72bfcd7c78d6947100007a"
+    }, 
+    {
+      "body": "Are there tools for visualizing and processing long-read sequencing data?", 
+      "type": "yesno", 
+      "id": "5c6ad3be7c78d69471000021"
+    }, 
+    {
+      "body": "Name siRNA drugs that have entered phase 2-3 clinical trials (by 2019).", 
+      "type": "list", 
+      "id": "5c900983ecadf2e73f000002"
+    }, 
+    {
+      "body": "Has Hesperidin any role as a Neuroprotective Agent?", 
+      "type": "yesno", 
+      "id": "5c674eac7c78d6947100001b"
+    }, 
+    {
+      "body": "Where is fatty acid binding protein 2 expressed?", 
+      "type": "factoid", 
+      "id": "5c8d15cf0101eac870000009"
+    }, 
+    {
+      "body": "Which gene mutation is associated with Woodhouse Sakati syndrome?", 
+      "type": "factoid", 
+      "id": "5c72f5247c78d6947100007e"
+    }, 
+    {
+      "body": "Mention computational tools that have been developed for alternative polyadenylation (APA) sites analysis", 
+      "type": "list", 
+      "id": "5c6b15467c78d69471000024"
+    }, 
+    {
+      "body": "What is patisiran?", 
+      "type": "summary", 
+      "id": "5c900a9becadf2e73f000003"
+    }, 
+    {
+      "body": "Losigamone can be used for treatment of which disease?", 
+      "type": "factoid", 
+      "id": "5c73acec7c78d69471000086"
+    }, 
+    {
+      "body": "Which curated data resources for ChIP-seq data are available?", 
+      "type": "list", 
+      "id": "5c6bda9d7c78d69471000031"
+    }, 
+    {
+      "body": "How many pseudokinases are there in the human kinome?", 
+      "type": "factoid", 
+      "id": "5c909b6cecadf2e73f000005"
+    }, 
+    {
+      "body": "What is the mechanism of action of Inclisiran?", 
+      "type": "summary", 
+      "id": "5c73ad047c78d6947100008e"
+    }, 
+    {
+      "body": "Which tool has been developed for visualization of non-covalent contacts?", 
+      "type": "factoid", 
+      "id": "5c6d65637c78d69471000038"
+    }, 
+    {
+      "body": "What is opdivo?", 
+      "type": "summary", 
+      "id": "5c910813ecadf2e73f000006"
+    }, 
+    {
+      "body": "Which diseases are treated with netarsudil?", 
+      "type": "list", 
+      "id": "5c73ad0f7c78d69471000096"
+    }, 
+    {
+      "body": "Can you computationally predict Molecular Recognition Features (MoRFs) regions in Intrinsically Disordered Proteins (IDPs)?", 
+      "type": "yesno", 
+      "id": "5c6d9a157c78d69471000041"
+    }, 
+    {
+      "body": "Which malignancies is Keytruda approved for before 2017?", 
+      "type": "list", 
+      "id": "5c9158a5ecadf2e73f000008"
+    }, 
+    {
+      "body": "Which was the first approved tumor treatment using a common biomarker rather than specified tumor locations in the body?", 
+      "type": "factoid", 
+      "id": "5c915a8becadf2e73f000009"
+    }, 
+    {
+      "body": "What does Prevnar 13 consist of?", 
+      "type": "summary", 
+      "id": "5c915ca7ecadf2e73f00000b"
+    }, 
+    {
+      "body": "What is the route of administration of apixaban?", 
+      "type": "factoid", 
+      "id": "5c920df7ecadf2e73f00000f"
+    }, 
+    {
+      "body": "What is the tradename of apixaban?", 
+      "type": "factoid", 
+      "id": "5c920fc3ecadf2e73f000011"
+    }, 
+    {
+      "body": "What is the name of the Cas13 based diagnostic test for the Zika and dengue viruses?", 
+      "type": "factoid", 
+      "id": "5c92871decadf2e73f000016"
+    }, 
+    {
+      "body": "Can cardiospheres be produced from skin fibroblasts?", 
+      "type": "yesno", 
+      "id": "5c928afeecadf2e73f000018"
+    }, 
+    {
+      "body": "Are apoE mimetics being considered as a treatment against Alzheimer's disease?", 
+      "type": "yesno", 
+      "id": "5c8857e975a4a5d219000009"
+    }, 
+    {
+      "body": "What is COG112?", 
+      "type": "summary", 
+      "id": "5c88593d75a4a5d21900000a"
+    }
+  ]
+}

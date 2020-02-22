@@ -1,0 +1,504 @@
+{
+  "questions": [
+    {
+      "body": "Which two drugs are included in the MAVYRET pill?", 
+      "type": "list", 
+      "id": "5c6e146a7c78d6947100004c"
+    }, 
+    {
+      "body": "Which transcription factor binding site is contained in Alu repeats?", 
+      "type": "factoid", 
+      "id": "5c74111f7c78d694710000a1"
+    }, 
+    {
+      "body": "Describe the 4D-CHAINS algorithm", 
+      "type": "summary", 
+      "id": "5c60382ac01990ff41000002"
+    }, 
+    {
+      "body": "What is eravacycline?", 
+      "type": "summary", 
+      "id": "5c011bbf133db5eb7800002c"
+    }, 
+    {
+      "body": "As of September 2018, what machine learning algorithm is used to for cardiac arrhythmia detection from a  short single-lead ECG recorded by a wearable device?", 
+      "type": "factoid", 
+      "id": "5c5219f67e3cb0e231000006"
+    }, 
+    {
+      "body": "What is latex bead phagocytosis?", 
+      "type": "summary", 
+      "id": "5c76e20f7c78d694710000ab"
+    }, 
+    {
+      "body": "Is inositol effective for trichotillomania?", 
+      "type": "yesno", 
+      "id": "5c73aced7c78d69471000087"
+    }, 
+    {
+      "body": "What is the function of the Nup153 protein?", 
+      "type": "summary", 
+      "id": "5c6585097c78d69471000003"
+    }, 
+    {
+      "body": "Which de novo truncating mutations in WASF1 cause intellectual disability?", 
+      "type": "list", 
+      "id": "5c61f379e842deac67000006"
+    }, 
+    {
+      "body": "Does lucatumumab bind to CD140?", 
+      "type": "yesno", 
+      "id": "5c654c14e842deac67000025"
+    }, 
+    {
+      "body": "Please list symptoms of measles.", 
+      "type": "list", 
+      "id": "5c53131e7e3cb0e231000012"
+    }, 
+    {
+      "body": "What is an organoid?", 
+      "type": "summary", 
+      "id": "5c780caf7c78d694710000af"
+    }, 
+    {
+      "body": "Is pazopanib an effective treatment of glioblastoma?", 
+      "type": "yesno", 
+      "id": "5c72aaed7c78d6947100006f"
+    }, 
+    {
+      "body": "What is CIBERSORT used for?", 
+      "type": "summary", 
+      "id": "5c6ffde47c78d69471000059"
+    }, 
+    {
+      "body": "Does Groucho related gene 5 (GRG5) have a role only in late development?", 
+      "type": "yesno", 
+      "id": "5c629fffe842deac67000009"
+    }, 
+    {
+      "body": "Can enasidenib be used for the treatment of acute myeloid leukemia?", 
+      "type": "yesno", 
+      "id": "5c6587d77c78d69471000005"
+    }, 
+    {
+      "body": "What membrane proteins constitute TAM family of receptor tyrosine kinases (RTKs)?", 
+      "type": "list", 
+      "id": "5c5315727e3cb0e231000014"
+    }, 
+    {
+      "body": "Is collagen the most abundant human protein?", 
+      "type": "yesno", 
+      "id": "5c783236d774d04240000001"
+    }, 
+    {
+      "body": "Describe symptoms of the Visual snow syndrome.", 
+      "type": "summary", 
+      "id": "5c72f9847c78d69471000081"
+    }, 
+    {
+      "body": "What is the aim of the METABRIC project?", 
+      "type": "summary", 
+      "id": "5c6ffee17c78d6947100005a"
+    }, 
+    {
+      "body": "Which microRNA is the mediator of the obesity phenotype of patients carrying 1p21.3 microdeletions?", 
+      "type": "factoid", 
+      "id": "5c630666e842deac6700000c"
+    }, 
+    {
+      "body": "Name 4 side effects of enasidenib", 
+      "type": "list", 
+      "id": "5c658a8f7c78d69471000007"
+    }, 
+    {
+      "body": "What disease is treated with Laparoscopic Heller Myotomy (LHM)?", 
+      "type": "factoid", 
+      "id": "5c536b857e3cb0e23100001c"
+    }, 
+    {
+      "body": "Which human disease is experimental autoimmune encephalomyelitis (EAE) model for?", 
+      "type": "factoid", 
+      "id": "5c783d32d774d04240000004"
+    }, 
+    {
+      "body": "Should dacomitinib be used for treatment of glioblastoma patients?", 
+      "type": "yesno", 
+      "id": "5c73acea7c78d69471000085"
+    }, 
+    {
+      "body": "What is GeneWeaver used for?", 
+      "type": "summary", 
+      "id": "5c6fff2e7c78d6947100005b"
+    }, 
+    {
+      "body": "Is there any role for HUWE1 in MYC signalling?", 
+      "type": "yesno", 
+      "id": "5c640c2ee842deac67000010"
+    }, 
+    {
+      "body": "What is PEGylation?", 
+      "type": "summary", 
+      "id": "5c66d3977c78d69471000017"
+    }, 
+    {
+      "body": "Does epidural anesthesia for pain management during labor affect the Apgar score of the the infant?", 
+      "type": "yesno", 
+      "id": "5c56fd7407647bbc4b000013"
+    }, 
+    {
+      "body": "Is phospholipid hydroperoxide glutathione peroxidase a selenoprotein?", 
+      "type": "yesno", 
+      "id": "5c5f22951a4c55d80b00001d"
+    }, 
+    {
+      "body": "What is evaluated with the SAD PERSONS scale?", 
+      "type": "factoid", 
+      "id": "5c73ad027c78d6947100008d"
+    }, 
+    {
+      "body": "How is the Regulatory Trait Concordance (RTC) calculated?", 
+      "type": "summary", 
+      "id": "5c70001f7c78d6947100005c"
+    }, 
+    {
+      "body": "Is TIAM1 favoring tumor progression in colorectal cancer (CRC)?", 
+      "type": "yesno", 
+      "id": "5c640fa1e842deac67000011"
+    }, 
+    {
+      "body": "How can PEGylation improve recombinant drugs?", 
+      "type": "summary", 
+      "id": "5c66d6167c78d69471000018"
+    }, 
+    {
+      "body": "Has Glyceraldehyde 3-phosphate dehydrogenase (GAPDH) been reported to be a plasminogen receptor in pathogenic bacteria?", 
+      "type": "yesno", 
+      "id": "5c57031107647bbc4b000014"
+    }, 
+    {
+      "body": "What is the function of Plasminogen activator inhibitor 1?", 
+      "type": "factoid", 
+      "id": "5c5f264b1a4c55d80b00001e"
+    }, 
+    {
+      "body": "Which drugs are included in the Orkambi pill?", 
+      "type": "list", 
+      "id": "5c73ad087c78d69471000091"
+    }, 
+    {
+      "body": "Which proteins form the nuclear pore basket in human cells?", 
+      "type": "list", 
+      "id": "5c72d4c77c78d6947100007c"
+    }, 
+    {
+      "body": "What are the effects of STEF depletion?", 
+      "type": "list", 
+      "id": "5c641179e842deac67000012"
+    }, 
+    {
+      "body": "Which disease is gemtuzumab ozogamicin used for?", 
+      "type": "factoid", 
+      "id": "5c646fd3e842deac6700001a"
+    }, 
+    {
+      "body": "Can exposure to heavy metals like lead(Pb) or cadmium(Cd) cause changes in DNA methylation patterns in Isoetes sinensis?", 
+      "type": "yesno", 
+      "id": "5c571f7607647bbc4b000017"
+    }, 
+    {
+      "body": "What is the cause if the rare disease cystinosis?", 
+      "type": "factoid", 
+      "id": "5c76d0417c78d694710000a8"
+    }, 
+    {
+      "body": "Does simvastatin improve outcomes of aneurysmal subarachnoid hemorrhage?", 
+      "type": "yesno", 
+      "id": "5c73ad0b7c78d69471000093"
+    }, 
+    {
+      "body": "Which databases can exchange data using Matchmaker Exchange's API?", 
+      "type": "list", 
+      "id": "5c641c60e842deac67000013"
+    }, 
+    {
+      "body": "Where does gemtuzumab ozogamicin bind?", 
+      "type": "factoid", 
+      "id": "5c6473b2e842deac6700001b"
+    }, 
+    {
+      "body": "Do raspberries improve postprandial glucose and acute and chronic inflammation in adults with type 2 Diabetes?", 
+      "type": "yesno", 
+      "id": "5c674aed7c78d69471000019"
+    }, 
+    {
+      "body": "Are Mesenchymal stem cells (MSC) multipotent cells?", 
+      "type": "yesno", 
+      "id": "5c7836dad774d04240000002"
+    }, 
+    {
+      "body": "What is the purpose of the Ottawa Ankle Rule?", 
+      "type": "summary", 
+      "id": "5c73ad0e7c78d69471000095"
+    }, 
+    {
+      "body": "Are de novo mutations in regulatory elements responsible for neurodevelopmental disorders?", 
+      "type": "yesno", 
+      "id": "5c643485e842deac67000015"
+    }, 
+    {
+      "body": "Which molecular does daratumumab target?", 
+      "type": "factoid", 
+      "id": "5c6545bae842deac6700001d"
+    }, 
+    {
+      "body": "What is PANDAS disease?", 
+      "type": "summary", 
+      "id": "5c6db9917c78d69471000043"
+    }, 
+    {
+      "body": "Are phagosomal proteins ubiquitinated?", 
+      "type": "yesno", 
+      "id": "5c7c0e2fd774d0424000000d"
+    }, 
+    {
+      "body": "Does tremelimumab improve survival of mesothelioma patients?", 
+      "type": "yesno", 
+      "id": "5c73ad327c78d69471000097"
+    }, 
+    {
+      "body": "What are the effects of the deletion of all three Pcdh clusters (tricluster deletion) in mice?", 
+      "type": "list", 
+      "id": "5c645313e842deac67000019"
+    }, 
+    {
+      "body": "What is CPX351?", 
+      "type": "summary", 
+      "id": "5c6548d4e842deac67000020"
+    }, 
+    {
+      "body": "What micro-RNAs are useful in the diagnosis and prognosis of Heart Failure?", 
+      "type": "list", 
+      "id": "5c6ffdd47c78d69471000058"
+    }, 
+    {
+      "body": "List proteins interacting with Star-PAP", 
+      "type": "list", 
+      "id": "5c5f11c31a4c55d80b000015"
+    }, 
+    {
+      "body": "Which molecule is targeted by Olaratumab?", 
+      "type": "factoid", 
+      "id": "5c73ad367c78d69471000099"
+    }, 
+    {
+      "body": "What is the predicted function for TMEM132 family?", 
+      "type": "factoid", 
+      "id": "5c65abd17c78d69471000009"
+    }, 
+    {
+      "body": "Can CPX-351 be used for the treatment of tuberculosis?", 
+      "type": "yesno", 
+      "id": "5c6549e1e842deac67000022"
+    }, 
+    {
+      "body": "What is etarfolatide used for?", 
+      "type": "factoid", 
+      "id": "5c7161f47c78d69471000066"
+    }, 
+    {
+      "body": "What is the role of the Leucosporidium ice-binding protein", 
+      "type": "summary", 
+      "id": "5c5f18501a4c55d80b000017"
+    }, 
+    {
+      "body": "Does Panitumumab prolong survival of biliary tract cancer patients?", 
+      "type": "yesno", 
+      "id": "5c73ad377c78d6947100009a"
+    }, 
+    {
+      "body": "Which tool has been developed for GPU-accelerated alignment of bisulfite-treated DNA sequences?", 
+      "type": "factoid", 
+      "id": "5c6aef167c78d69471000023"
+    }, 
+    {
+      "body": "What is ivosidenib?", 
+      "type": "summary", 
+      "id": "5c654aede842deac67000023"
+    }, 
+    {
+      "body": "A herd immunity of what percentage of the population is required to prevent sporadic outbreaks?", 
+      "type": "factoid", 
+      "id": "5c7b1a5fd774d0424000000c"
+    }, 
+    {
+      "body": "What is the normal function p53?", 
+      "type": "factoid", 
+      "id": "5c5f1f371a4c55d80b00001a"
+    }, 
+    {
+      "body": "Which two drugs are included in the Entresto pill?", 
+      "type": "list", 
+      "id": "5c61bd04e842deac67000002"
+    }, 
+    {
+      "body": "Is there a deep-learning algorithm for protein solubility prediction?", 
+      "type": "yesno", 
+      "id": "5c6b198f7c78d69471000025"
+    }, 
+    {
+      "body": "Name 3 diseases for which lucatumumab is being tested?", 
+      "type": "list", 
+      "id": "5c654b3de842deac67000024"
+    }, 
+    {
+      "body": "Have machine learning methods been used to predict the severity of major depressive disorder(MDD)?", 
+      "type": "yesno", 
+      "id": "5c5215e67e3cb0e231000004"
+    }, 
+    {
+      "body": "What is ferroptosis?", 
+      "type": "summary", 
+      "id": "5c5f218a1a4c55d80b00001b"
+    }, 
+    {
+      "body": "Which disease can be classified with the Awaji Criteria?", 
+      "type": "factoid", 
+      "id": "5c61d278e842deac67000005"
+    }, 
+    {
+      "body": "Which database has been developed that contains experimentally-confirmed carbonylated proteins?", 
+      "type": "factoid", 
+      "id": "5c6be8f07c78d69471000032"
+    }, 
+    {
+      "body": "Is lucatumumab a polyclonal antibody?", 
+      "type": "yesno", 
+      "id": "5c6582207c78d69471000001"
+    }, 
+    {
+      "body": "Briefly describe a deep learning system that is more accurate than human experts at detecting melanoma.", 
+      "type": "summary", 
+      "id": "5c5245b57e3cb0e23100000a"
+    }, 
+    {
+      "body": "What is known about the gut bacteria and depression.", 
+      "type": "summary", 
+      "id": "5c5f2d5a1a4c55d80b000023"
+    }, 
+    {
+      "body": "Is lithium effective for treatment of amyotrophic lateral sclerosis?", 
+      "type": "yesno", 
+      "id": "5c662c507c78d6947100000d"
+    }, 
+    {
+      "body": "List available R packages for processing NanoString data", 
+      "type": "list", 
+      "id": "5c6c46677c78d69471000035"
+    }, 
+    {
+      "body": "Can midostaurin inhibit angiogenesis?", 
+      "type": "yesno", 
+      "id": "5c6583117c78d69471000002"
+    }, 
+    {
+      "body": "What is the 3D tomography imaging technique for diagnosis of  eye disease?", 
+      "type": "factoid", 
+      "id": "5c5249077e3cb0e23100000b"
+    }, 
+    {
+      "body": "Is the enzyme ERAP2 associated with the disease birdshot chorioretinopathy?", 
+      "type": "yesno", 
+      "id": "5c76be617c78d694710000a5"
+    }, 
+    {
+      "body": "What is the mechanism of action of durvalumab?", 
+      "type": "summary", 
+      "id": "5c66329e7c78d6947100000f"
+    }, 
+    {
+      "body": "Are there ultraconserved regions in the budding yeast (Saccharomyces cerevisiae)?", 
+      "type": "yesno", 
+      "id": "5c6d7bb57c78d6947100003b"
+    }, 
+    {
+      "body": "For which indications has midostaurin received FDA and EMA approval?", 
+      "type": "list", 
+      "id": "5c6585287c78d69471000004"
+    }, 
+    {
+      "body": "Endolymphatic hydrops is associated with Meniere\u2019s disease. Please provide a summary of endoymphatic hydrops including the symptoms and affected body part.", 
+      "type": "summary", 
+      "id": "5c530ff67e3cb0e23100000f"
+    }, 
+    {
+      "body": "List MHC-I-associated inflammatory disorders.", 
+      "type": "list", 
+      "id": "5c76c1457c78d694710000a6"
+    }, 
+    {
+      "body": "What is the mechanism of action of Alpelisib?", 
+      "type": "summary", 
+      "id": "5c6633f27c78d69471000010"
+    }, 
+    {
+      "body": "What is the role of ZCCHC17?", 
+      "type": "summary", 
+      "id": "5c6d7ff87c78d6947100003c"
+    }, 
+    {
+      "body": "Which was the first mutant IDH2 inhibitor to be approved for patients with acute myeloid leukemia?", 
+      "type": "factoid", 
+      "id": "5c65897a7c78d69471000006"
+    }, 
+    {
+      "body": "What part of the body is affected by Meniere's disease?", 
+      "type": "factoid", 
+      "id": "5c5310c37e3cb0e231000010"
+    }, 
+    {
+      "body": "Is ADP-ribosylation a PTM?", 
+      "type": "yesno", 
+      "id": "5c76cea17c78d694710000a7"
+    }, 
+    {
+      "body": "What is the mechanism of action of arimoclomol?", 
+      "type": "summary", 
+      "id": "5c6636c57c78d69471000011"
+    }, 
+    {
+      "body": "Describe CGmapTools", 
+      "type": "summary", 
+      "id": "5c6d88257c78d6947100003d"
+    }, 
+    {
+      "body": "Which disease is PGT121 used for?", 
+      "type": "factoid", 
+      "id": "5c65901c7c78d69471000008"
+    }, 
+    {
+      "body": "Where, in what US state, was there a measles outbreak in an Amish community", 
+      "type": "factoid", 
+      "id": "5c5312097e3cb0e231000011"
+    }, 
+    {
+      "body": "What is filipin staining used for?", 
+      "type": "summary", 
+      "id": "5c76d31c7c78d694710000a9"
+    }, 
+    {
+      "body": "Is pacritinib effective for treatment of myelofibrosis?", 
+      "type": "yesno", 
+      "id": "5c663afe7c78d69471000013"
+    }, 
+    {
+      "body": "Describe GeneCodeq", 
+      "type": "summary", 
+      "id": "5c6d8b237c78d6947100003e"
+    }, 
+    {
+      "body": "What type of topoisomerase inhibitor is gepotidacin?", 
+      "type": "factoid", 
+      "id": "5c0115e0133db5eb78000029"
+    }
+  ]
+}

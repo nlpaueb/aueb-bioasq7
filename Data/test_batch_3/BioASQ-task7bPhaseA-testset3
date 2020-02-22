@@ -1,0 +1,504 @@
+{
+  "questions": [
+    {
+      "body": "What is the mechanism of action of anlotinib?", 
+      "type": "summary", 
+      "id": "5c663c547c78d69471000014"
+    }, 
+    {
+      "body": "Describe Canvas SPW", 
+      "type": "summary", 
+      "id": "5c6d8f4c7c78d6947100003f"
+    }, 
+    {
+      "body": "When did delafloxacin receive its first approval in the USA for acute bacterial skin and skin structure infections?", 
+      "type": "factoid", 
+      "id": "5c0117fd133db5eb7800002a"
+    }, 
+    {
+      "body": "What is a prolactinoma and where in the body would they be found?", 
+      "type": "summary", 
+      "id": "5c53143b7e3cb0e231000013"
+    }, 
+    {
+      "body": "List phagosomal markers.", 
+      "type": "list", 
+      "id": "5c76e6d27c78d694710000ac"
+    }, 
+    {
+      "body": "What is the mechanism of action of motolimod?", 
+      "type": "summary", 
+      "id": "5c663e277c78d69471000015"
+    }, 
+    {
+      "body": "Are there graph kernel libraries available implemented in JAVA?", 
+      "type": "yesno", 
+      "id": "5c6d97497c78d69471000040"
+    }, 
+    {
+      "body": "List bacterial families for which delafloxacin has been shown to be effective.", 
+      "type": "list", 
+      "id": "5c0119f3133db5eb7800002b"
+    }, 
+    {
+      "body": "What is the association of epigallocatechin with the cardiovascular system?", 
+      "type": "summary", 
+      "id": "5c5317e77e3cb0e231000015"
+    }, 
+    {
+      "body": "What is the cause of Sandhoff disease?", 
+      "type": "factoid", 
+      "id": "5c78080e7c78d694710000ae"
+    }, 
+    {
+      "body": "What is the mechanism of action of tucatinib?", 
+      "type": "summary", 
+      "id": "5c6641ea7c78d69471000016"
+    }, 
+    {
+      "body": "Are there tools for reviewing variant calls?", 
+      "type": "yesno", 
+      "id": "5c6da11e7c78d69471000042"
+    }, 
+    {
+      "body": "Name one CCR4 targeted drug.", 
+      "type": "factoid", 
+      "id": "5c65468ce842deac6700001e"
+    }, 
+    {
+      "body": "What periodontal disease associated bacteria is also associated with Alzheimer's disease?", 
+      "type": "factoid", 
+      "id": "5c53191a7e3cb0e231000016"
+    }, 
+    {
+      "body": "How does the Cholera toxin enter a cell?", 
+      "type": "factoid", 
+      "id": "5c7813f57c78d694710000b0"
+    }, 
+    {
+      "body": "What is the mechanism of action of cemiplimab?", 
+      "type": "summary", 
+      "id": "5c6b78b77c78d69471000028"
+    }, 
+    {
+      "body": "Which algorithm has been developed for finding conserved non-coding elements (CNEs) in genomes?", 
+      "type": "factoid", 
+      "id": "5c51f01e07ef653866000002"
+    }, 
+    {
+      "body": "Can mogamulizumab be used for the treatment of cutaneous T-cell lymphoma?", 
+      "type": "yesno", 
+      "id": "5c65484ee842deac6700001f"
+    }, 
+    {
+      "body": "What causes Bathing suit Ichthyosis(BSI)?", 
+      "type": "factoid", 
+      "id": "5c531d8f7e3cb0e231000017"
+    }, 
+    {
+      "body": "List search engines used in proteomics.", 
+      "type": "list", 
+      "id": "5c78174b7c78d694710000b1"
+    }, 
+    {
+      "body": "Is cabozantinib effective for Hepatocellular Carcinoma?", 
+      "type": "yesno", 
+      "id": "5c6b7a9e7c78d69471000029"
+    }, 
+    {
+      "body": "Describe SLIC-CAGE", 
+      "type": "summary", 
+      "id": "5c51f16307ef653866000003"
+    }, 
+    {
+      "body": "Has ivosidenib been FDA approved for use against acute myeloid leukemia?", 
+      "type": "yesno", 
+      "id": "5c65495be842deac67000021"
+    }, 
+    {
+      "body": "What is achalasia?", 
+      "type": "summary", 
+      "id": "5c536c427e3cb0e23100001d"
+    }, 
+    {
+      "body": "When is serum AFP used as marker?", 
+      "type": "factoid", 
+      "id": "5c7839edd774d04240000003"
+    }, 
+    {
+      "body": "Is dupilumab effective for treatment of asthma?", 
+      "type": "yesno", 
+      "id": "5c6b7bee7c78d6947100002a"
+    }, 
+    {
+      "body": "Are Copy Number Variants (CNVs) depleted in regions of low mappability?", 
+      "type": "yesno", 
+      "id": "5c51f44c07ef653866000004"
+    }, 
+    {
+      "body": "How does botulism toxin act on the muscle?", 
+      "type": "summary", 
+      "id": "5c54d00e07647bbc4b000005"
+    }, 
+    {
+      "body": "What is the function of the protein encoded by the gene STING?", 
+      "type": "factoid", 
+      "id": "5c7aae9dd774d0424000000a"
+    }, 
+    {
+      "body": "List major features of TEMPI Syndrome.", 
+      "type": "list", 
+      "id": "5c6b7daa7c78d6947100002b"
+    }, 
+    {
+      "body": "Which random forest method has been developed for detecting Copy Numbers Variants (CNVs)?", 
+      "type": "factoid", 
+      "id": "5c51f9dd07ef653866000005"
+    }, 
+    {
+      "body": "What is nyctinasty in plants?", 
+      "type": "factoid", 
+      "id": "5c54d1a207647bbc4b000007"
+    }, 
+    {
+      "body": "List STING agonists.", 
+      "type": "list", 
+      "id": "5c7ab080d774d0424000000b"
+    }, 
+    {
+      "body": "Burosumab is used for treatment of which disease?", 
+      "type": "factoid", 
+      "id": "5c6b7fb27c78d6947100002d"
+    }, 
+    {
+      "body": "Which deep learning algorithm has been developed for variant calling?", 
+      "type": "factoid", 
+      "id": "5c51fb7a07ef653866000006"
+    }, 
+    {
+      "body": "What 2 biological processes are regulated by STAMP2 in adipocytes?", 
+      "type": "list", 
+      "id": "5c57041807647bbc4b000015"
+    }, 
+    {
+      "body": "Cerliponase alfa is apprived for treatment of which disease?", 
+      "type": "factoid", 
+      "id": "5c6b810e7c78d6947100002e"
+    }, 
+    {
+      "body": "What is the percentage of individuals at risk of dominant medically actionable disease?", 
+      "type": "factoid", 
+      "id": "5c51fe8907ef653866000007"
+    }, 
+    {
+      "body": "What organism causes hepatic capillariasis?", 
+      "type": "factoid", 
+      "id": "5c571dd307647bbc4b000016"
+    }, 
+    {
+      "body": "Is verubecestat effective for Alzheimer\u2019s Disease?", 
+      "type": "yesno", 
+      "id": "5c6b82a17c78d6947100002f"
+    }, 
+    {
+      "body": "Can mitochondria be inherited by both parents in humans?", 
+      "type": "yesno", 
+      "id": "5c52028807ef653866000009"
+    }, 
+    {
+      "body": "In clinical trials, the H3 R antagonist CEP-26401 has a positive effect on cognition, yes or no?", 
+      "type": "yesno", 
+      "id": "5c57216e07647bbc4b000018"
+    }, 
+    {
+      "body": "Is baricitinib effective for rheumatoid arthritis?", 
+      "type": "yesno", 
+      "id": "5c6df86b7c78d69471000045"
+    }, 
+    {
+      "body": "What type of data does the UK biobank resource contain?", 
+      "type": "list", 
+      "id": "5c5205137e3cb0e231000001"
+    }, 
+    {
+      "body": "Have yeast prions become important models for the study of the basic mechanisms underlying human amyloid diseases?", 
+      "type": "yesno", 
+      "id": "5c5723a007647bbc4b000019"
+    }, 
+    {
+      "body": "Describe the mechanism of action of apalutamide.", 
+      "type": "summary", 
+      "id": "5c6dfba77c78d69471000046"
+    }, 
+    {
+      "body": "List potential reasons regarding why potentially important genes are ignored", 
+      "type": "list", 
+      "id": "5c5214207e3cb0e231000003"
+    }, 
+    {
+      "body": "What is the indication for Truvada?", 
+      "type": "factoid", 
+      "id": "5c5f29a81a4c55d80b00001f"
+    }, 
+    {
+      "body": "List drugs that were tested in the CheckMate 214 trial.", 
+      "type": "list", 
+      "id": "5c6dfdf27c78d69471000047"
+    }, 
+    {
+      "body": "What is the contribution of ultraconserved elements in Australasian smurf-weevils?", 
+      "type": "summary", 
+      "id": "5c52c8b07e3cb0e23100000c"
+    }, 
+    {
+      "body": "There is no drug available to prevent HIV infection, Pre-exposure prophylaxis (PrEP), yes or no?", 
+      "type": "yesno", 
+      "id": "5c5f2cef1a4c55d80b000022"
+    }, 
+    {
+      "body": "List two indications of Letermovir?", 
+      "type": "list", 
+      "id": "5c6e01af7c78d69471000048"
+    }, 
+    {
+      "body": "Does allele phasing improve the phylogenetic utility of ultraconserved elements?", 
+      "type": "yesno", 
+      "id": "5c52cde87e3cb0e23100000e"
+    }, 
+    {
+      "body": "What is Burning Mouth Syndrome(BMS)?", 
+      "type": "summary", 
+      "id": "5c5f39011a4c55d80b000027"
+    }, 
+    {
+      "body": "RV3-BB vaccine is used for prevention of which viral infection?", 
+      "type": "factoid", 
+      "id": "5c6e05f37c78d69471000049"
+    }, 
+    {
+      "body": "What is the role of the Mcm2-Ctf4-Pol\u03b1 axis?", 
+      "type": "summary", 
+      "id": "5c5410647e3cb0e23100001e"
+    }, 
+    {
+      "body": "What is anophthalmia?", 
+      "type": "factoid", 
+      "id": "5c674c287c78d6947100001a"
+    }, 
+    {
+      "body": "Which molecule is inhibited by larotrectinib?", 
+      "type": "factoid", 
+      "id": "5c6e0f537c78d6947100004a"
+    }, 
+    {
+      "body": "What are the roles of LEM-3?", 
+      "type": "list", 
+      "id": "5c54224807647bbc4b000001"
+    }, 
+    {
+      "body": "What is the most common pediatric glioma?", 
+      "type": "factoid", 
+      "id": "5c6bec987c78d69471000033"
+    }, 
+    {
+      "body": "Describe Herpetic Whitlow.", 
+      "type": "summary", 
+      "id": "5c6e12247c78d6947100004b"
+    }, 
+    {
+      "body": "List uniparental disomy (UPD) detection algorithms", 
+      "type": "list", 
+      "id": "5c544c1707647bbc4b000003"
+    }, 
+    {
+      "body": "What is Bayesian haplotyping used for?", 
+      "type": "summary", 
+      "id": "5c6bedd57c78d69471000034"
+    }, 
+    {
+      "body": "Sweat Chloride Testing is used  for which disease?", 
+      "type": "factoid", 
+      "id": "5c6e16eb7c78d6947100004e"
+    }, 
+    {
+      "body": "List the releases of tmVar", 
+      "type": "list", 
+      "id": "5c561da707647bbc4b00000f"
+    }, 
+    {
+      "body": "Does Eucommia ulmoides leaf extract ameliorates steatosis/fatty liver induced by high-fat diet?", 
+      "type": "yesno", 
+      "id": "5c6d441d7c78d69471000037"
+    }, 
+    {
+      "body": "What is the mechanism of action of Pitolisant?", 
+      "type": "summary", 
+      "id": "5c6f0ebf7c78d69471000050"
+    }, 
+    {
+      "body": "Which methods have been developed for extracting sequence variants from the literature?", 
+      "type": "list", 
+      "id": "5c56bbb107647bbc4b000011"
+    }, 
+    {
+      "body": "What is Chrysophanol?", 
+      "type": "summary", 
+      "id": "5c6dbda27c78d69471000044"
+    }, 
+    {
+      "body": "Which molecules are targeted by defactinib?", 
+      "type": "list", 
+      "id": "5c6f107c7c78d69471000051"
+    }, 
+    {
+      "body": "What is CardioClassifier?", 
+      "type": "summary", 
+      "id": "5c56c5e107647bbc4b000012"
+    }, 
+    {
+      "body": "Please list the 4 genes involved in Sanfilippo syndrome, also known as mucopolysaccharidosis III (MPS-III).", 
+      "type": "list", 
+      "id": "5c6ffa257c78d69471000056"
+    }, 
+    {
+      "body": "What is the triad of Melkersson-Rosenthal syndrome?", 
+      "type": "list", 
+      "id": "5c6f14297c78d69471000052"
+    }, 
+    {
+      "body": "List clinical disorders or diseases where uc.189 is involved?", 
+      "type": "list", 
+      "id": "5c580fe107647bbc4b00001b"
+    }, 
+    {
+      "body": "What is the role of metalloproteinase-17 (ADAM17) in NK cells?", 
+      "type": "summary", 
+      "id": "5c6ffc5b7c78d69471000057"
+    }, 
+    {
+      "body": "Is galcanezumab effective for treatment of migraine?", 
+      "type": "yesno", 
+      "id": "5c6f15577c78d69471000053"
+    }, 
+    {
+      "body": "Name the algorithms for counting multi-mapping reads", 
+      "type": "list", 
+      "id": "5c58282e07647bbc4b00001e"
+    }, 
+    {
+      "body": "Can Diazepam be beneficial  in the treatment of  traumatic brain injury?", 
+      "type": "yesno", 
+      "id": "5c71648b7c78d69471000067"
+    }, 
+    {
+      "body": "Is Lasmiditan effective for migraine?", 
+      "type": "yesno", 
+      "id": "5c6f6ae37c78d69471000054"
+    }, 
+    {
+      "body": "Is there a link between BCL11B haploinsufficiency and syndromic neurodevelopmental delay?", 
+      "type": "yesno", 
+      "id": "5c5839e707647bbc4b00001f"
+    }, 
+    {
+      "body": "Fecal transplantation is used to treat infection with what bacteria?", 
+      "type": "factoid", 
+      "id": "5c71d6d27c78d6947100006a"
+    }, 
+    {
+      "body": "Is pimavanserin effective for Parkinson's disease psychosis?", 
+      "type": "yesno", 
+      "id": "5c6f6d997c78d69471000055"
+    }, 
+    {
+      "body": "What are the CADD scores?", 
+      "type": "summary", 
+      "id": "5c58db1386df2b9174000014"
+    }, 
+    {
+      "body": "Erenumab, used to treat migraine headaches, binds to what protein?", 
+      "type": "factoid", 
+      "id": "5c71d7ca7c78d6947100006b"
+    }, 
+    {
+      "body": "List drugs included in the TRIUMEQ pill.", 
+      "type": "list", 
+      "id": "5c7034ae7c78d69471000063"
+    }, 
+    {
+      "body": "Which integrin genes are activated by the immune system in inflammatory bowel disease?", 
+      "type": "list", 
+      "id": "5c596ad686df2b9174000015"
+    }, 
+    {
+      "body": "Which two surgical methods were compared in the RAZOR trial?", 
+      "type": "list", 
+      "id": "5c7036127c78d69471000064"
+    }, 
+    {
+      "body": "Which is the database of somatic mutations in normal cells?", 
+      "type": "factoid", 
+      "id": "5c5b268986df2b9174000019"
+    }, 
+    {
+      "body": "Which molecule is targeted by upadacitinib?", 
+      "type": "factoid", 
+      "id": "5c7039207c78d69471000065"
+    }, 
+    {
+      "body": "Is Adar3 involved in learning and memory?", 
+      "type": "yesno", 
+      "id": "5c5b2f4b1a4c55d80b000001"
+    }, 
+    {
+      "body": "Which drugs are included in the Lonsurf pill?", 
+      "type": "list", 
+      "id": "5c72a9147c78d6947100006e"
+    }, 
+    {
+      "body": "Mutations in which gene have been found in patients with the CLAPO syndrome?", 
+      "type": "factoid", 
+      "id": "5c5b4a941a4c55d80b000002"
+    }, 
+    {
+      "body": "Which enzyme is inhibited by a drug Lorlatinib?", 
+      "type": "factoid", 
+      "id": "5c72ade07c78d69471000070"
+    }, 
+    {
+      "body": "Is deletion at 6q24.2-26 associated with longer survival of patients with high-grade serous ovarian carcinoma (HGSOCs)?", 
+      "type": "yesno", 
+      "id": "5c5b52731a4c55d80b000003"
+    }, 
+    {
+      "body": "Describe the mechanism of action of Lurbinectedin.", 
+      "type": "summary", 
+      "id": "5c72b4897c78d69471000071"
+    }, 
+    {
+      "body": "What is CamurWeb?", 
+      "type": "summary", 
+      "id": "5c608f0cc01990ff41000003"
+    }, 
+    {
+      "body": "Which enzymes are inhibited by Duvelisib?", 
+      "type": "list", 
+      "id": "5c72b6be7c78d69471000072"
+    }, 
+    {
+      "body": "What is the most common monogenic cause of common variable immunodeficiency (CVID) in Europeans?", 
+      "type": "factoid", 
+      "id": "5c629937e842deac67000008"
+    }, 
+    {
+      "body": "Is avelumab effective for bladder cancer?", 
+      "type": "yesno", 
+      "id": "5c72ba807c78d69471000076"
+    }, 
+    {
+      "body": "De novo mutations in which novel genes are involved in systemic lupus erythematosus?", 
+      "type": "list", 
+      "id": "5c62a276e842deac6700000a"
+    }
+  ]
+}
