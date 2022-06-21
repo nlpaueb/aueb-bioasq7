@@ -1,6 +1,6 @@
 torch==1.1.0
 nltk==3.4
-numpy==1.15.4
+numpy==1.22.0
 tqdm==4.28.1
 gensim==3.6.0
 ijson
